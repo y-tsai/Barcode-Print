@@ -22,11 +22,33 @@
   
   }
 
-  .bottom-list{
-    position: absolute;
-    border: 2px solid;
-    width: 195.8px;
-    height: 80px;
-    top: 356px;
-    left: 8px;
-  }
+.bottom-list{
+  position: absolute;
+  border: 2px solid;
+  width: 195.8px;
+  height: 80px;
+  top: 356px;
+  left: 8px;
+}
+
+#energy-sticker{
+
+}
+
+#sticker-no{
+
+}
+
+#ro-hs{
+
+}
+
+#type-no{
+
+}
+
+#type-barcode{
+  position: absolute;
+  left: 92px;
+  bottom: 5px;
+}
