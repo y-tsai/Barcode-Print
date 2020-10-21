@@ -1,0 +1,29 @@
+#inside-table{
+  width: 200px;
+  height: 400px;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+#inside-table th{
+  border: 2px solid;
+  text-align:left;
+  width: 80px;
+}
+
+#inside-table td{
+  border: 2px solid;
+  text-align:center;
+}
+
+#brand-Company{
+  border-bottom-style: hidden;
+}
+
+#air-series{
+  border-top-style: none;
+}
+
+#inside-table .no-line{
+  border-width: 0px 1px;
+  }
