@@ -1,8 +1,8 @@
 #inside-table{
-  margin-top: 11px;
+  margin-top: 15px;
   border: 2px solid;
   width: 200px;
-  height: 300px;
+  height: 280px;
   border-collapse: collapse;
   font-size: 12px;
 }
@@ -28,25 +28,27 @@
   border: 2px solid;
   width: 195.8px;
   height: 80px;
-  top: 309px;
+  top: 293px;
   left: 8px;
 }
 
 #energy-sticker{
   position: absolute;
+  margin-top: 7px;
+  margin-left: 3px;
 }
 
 #sticker-no{
   position: absolute;
   font-size: 10px;
-  margin-left: 38px;
+  margin-left: 40px;
   margin-top: 7px;
 }
 
 #ro-hs{
   position: absolute;
   font-size: 8px;
-  margin-left: 38px;
+  margin-left: 40px;
   margin-top: 30px
 }
 

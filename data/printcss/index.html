@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<style>
+		@page {
+  			margin: 1cm; /*print邊界*/
+  			size:210mm 148mm; /*列印紙張大小*/
+		}
+		.print{
+			page-break-after:always; /*print分頁面*/	
+					
+		}
+		@media print{
+			.imgs{
+				width: 100px;
+			}
+		}
+
+	</style>
+	<title>CSS3 Print</title>
+</head>
+<body>
+<div class="print">
+<div style="text-align: center;"><img src="superman.jpg" alt="" class="imgs"></div>
+超人出生在克利普頓星（Krypton），外星名凱·艾爾（Kal-El）。當他還是嬰兒的時候，被他的父親喬·艾爾（Jor-El）和母親蘿拉（Lara）單獨放進太空船中，當他乘坐的太空船離開時，他出生的星球發生大爆炸。他的太空船到達地球後，降落在美國堪薩斯州斯莫威爾（Smallville）的肯特農場，而他則被農場主人肯特夫婦強納森（Jonathan）、瑪莎（Martha）發現並收養，改名為克拉克·肯特（Clark Kent）。長大後，他在大都會（Metropolis）的報紙《星球日報》（The Daily Planet）做新聞記者。
+</div>
+<div class="print">
+<div style="text-align: center;"><img src="batman.jpg" alt="" class="imgs"></div>蝙蝠俠在一推出是一個極為受歡迎的角色，後來並有屬於自己的同名漫畫系列，《蝙蝠俠》（Batman）。隨著時間的演進，對蝙蝠俠這個角色的各種不同詮釋也紛紛出現。1960年代後期的蝙蝠俠電視影集採用了誇張滑稽的美學處理方式，結果在影集結束後的數十年間仍讓蝙蝠俠脫離不了影集中的形象。1986年法蘭克·米勒的短篇漫畫集《蝙蝠俠：黑暗騎士歸來》（Batman: The Dark Knight Returns）與1989年提姆·波頓的蝙蝠俠電影的成功，讓蝙蝠俠回到了他原本灰暗的基調。蝙蝠俠是一個文化符號，曾被改編呈現於數種媒體中，包括廣播、電視、電影；更出現在各式各樣的商品上行銷於全世界。</div>
+</body>
+</html>
