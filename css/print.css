@@ -1,8 +1,16 @@
 @page{
     margin: 0px;
-    size: 12cm 6cm;
+    
 }
-
+/* 
 .print{
     page-break-after: avoid;
+} */
+
+@media print{
+    .print{
+        
+        page-break-inside: avoid;
+        margin: 0px;
+      }
 }

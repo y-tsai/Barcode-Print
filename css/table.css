@@ -1,8 +1,9 @@
 #inside-table{
-  margin-top: 15px;
+  margin-top: 5px;
   border: 2px solid;
   width: 200px;
   height: 280px;
+  margin-left: 53px;
   border-collapse: collapse;
   font-size: 12px;
 }
@@ -28,7 +29,8 @@
   border: 2px solid;
   width: 195.8px;
   height: 80px;
-  top: 293px;
+  margin-left: 53px;
+  top: 286px;
   left: 8px;
 }
 
