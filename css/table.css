@@ -33,23 +33,33 @@
 }
 
 #energy-sticker{
-
+  position: absolute;
 }
 
 #sticker-no{
-
+  position: absolute;
+  font-size: 10px;
+  margin-left: 38px;
+  margin-top: 7px;
 }
 
 #ro-hs{
-
+  position: absolute;
+  font-size: 8px;
+  margin-left: 38px;
+  margin-top: 30px
 }
 
 #type-no{
-
+  position: absolute;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 55px;
 }
 
 #type-barcode{
   position: absolute;
-  left: 92px;
-  bottom: 5px;
+  left: 110px;
+  bottom: 10px;
 }
