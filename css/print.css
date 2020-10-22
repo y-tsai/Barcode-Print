@@ -1,16 +1,13 @@
-@page{
-    margin: 0px;
-    
-}
+
 /* 
 .print{
     page-break-after: avoid;
 } */
 
 @media print{
-    .print{
-        
-        page-break-inside: avoid;
-        margin: 0px;
-      }
+
+    @page{
+        margin: 0.5cm;
+        page-break-after: avoid;
+    }
 }
