@@ -1,25 +1,36 @@
+@font-face{
+    font-family: MingLiU;
+    src: local("Heiti TC"), local("微軟正黑體"), local("Microsoft JhengHei");
+    unicode-range: U+4E00-9FFF;
+  }
+@font-face{
+    font-family: Arial;
+    src: local("Helvetica"), local("sans-serif");
+    unicode-range: U+00-024F;
+  }
+
 #inside-table{
   border: 2px solid;
   width: 200px;
-  height: 280px;
+  height: 250px;
   margin-left: 61px;
   border-collapse: collapse;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 #inside-table th{
-  border: 2px solid;
-  text-align:left;
+  border: 1px solid;
+  text-align:center;
   width: 80px;
 }
 
 #inside-table td{
-  border: 2px solid;
+  border: 1px solid;
   text-align:center;
 }
 
 #inside-table .no-line{
-  border-width: 0px 2px;
+  border-width: 0px 1px;
   
   }
 
@@ -29,7 +40,7 @@
   width: 195.8px;
   height: 80px;
   margin-left: 61px;
-  top: 286px;
+  top: 256px;
   left: 8px;
 }
 
