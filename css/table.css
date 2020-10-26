@@ -1,13 +1,15 @@
-@font-face{
-    font-family: MingLiU;
+*{
+  @font-face{
+    font-family: MingLiU-01;
     src: url(font/MingLiU-01.woff) format("woff");
     unicode-range: U+4E00-9FFF;
   }
 @font-face{
-    font-family: Arial;
+    font-family: arial;
     src: url(font/arial.woff) format("woff");
     unicode-range: U+00-024F;
   }
+}
 
 #inside-table{
   border: 2px solid;
