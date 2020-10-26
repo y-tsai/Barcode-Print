@@ -1,12 +1,15 @@
-
 /* 
 .print{
     page-break-after: avoid;
 } */
 
-@media print{
-    @page{
-        margin: 3;
-        page-break-after: avoid;
-    }
+@media print {
+  #print {
+    margin: 5;
+    page-break-after: avoid;
+  }
+  #print2 {
+    margin: 5;
+    page-break-after: avoid;
+  }
 }
