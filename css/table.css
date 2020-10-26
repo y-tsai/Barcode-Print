@@ -1,11 +1,11 @@
 @font-face{
     font-family: MingLiU;
-    src: local("Heiti TC"), local("Microsoft JhengHei");
+    src: url(font/MingLiU-01.woff) format("woff");
     unicode-range: U+4E00-9FFF;
   }
 @font-face{
     font-family: Arial;
-    src: local("Helvetica"), local("sans-serif");
+    src: url(font/arial.woff) format("woff");
     unicode-range: U+00-024F;
   }
 
