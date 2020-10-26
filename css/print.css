@@ -1,15 +1,14 @@
-/* 
-.print{
-    page-break-after: avoid;
-} */
+
+@page{
+    margin: 5cm;
+}
 
 @media print {
-  #print {
-    margin: 5;
-    page-break-after: avoid;
+  .print{
+    page-break-after: always;
   }
-  #print2 {
-    margin: 5;
-    page-break-after: avoid;
+  
+  .print2{
+    page-break-before: always;
   }
 }

@@ -8,6 +8,14 @@
   src: url("font/arial.woff") format("woff");
   unicode-range: U+0021-007E;
 }
+.print{
+  page-break-after: always;
+}
+
+.print2{
+  page-break-before: always;
+  
+}
 
 #inside-table {
   border: 2px solid;
