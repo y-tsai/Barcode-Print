@@ -1,14 +1,15 @@
-
-@page{
-    margin: 5cm;
-}
-
 @media print {
+
+  @page{
+   size: 5.5cm 11cm;
+}
   .print{
     page-break-after: always;
+    margin: center;
   }
   
   .print2{
     page-break-before: always;
+    margin: center;
   }
 }

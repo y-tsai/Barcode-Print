@@ -11,19 +11,20 @@
 
 
 #inside-table {
+  position: relative;
   border: 2px solid;
-  width: 200px;
-  height: 280px;
+  width: 260px;
+  height: 320px;
   margin-left: 61px;
   border-collapse: collapse;
-  font-size: 10px;
 }
 
 #inside-table th {
   border: 1px solid;
   text-align: center;
-  width: 80px;
+  width: 90px;
   font-size: 8px;
+  letter-spacing: 1px;
 }
 
 #inside-table td {
@@ -38,11 +39,11 @@
 .bottom-list {
   position: absolute;
   border: 2px solid;
-  width: 195.8px;
+  width: 256px;
   height: 80px;
-  margin-left: 61px;
-  top: 286px;
-  left: 8px;
+  margin-left: -4px;
+  top: 316px;
+  
 }
 
 #bsmi-sticker {
@@ -82,19 +83,19 @@
 #inside-table2 {
   position: relative;
   border: 2px solid;
-  width: 200px;
-  height: 280px;
+  width: 260px;
+  height: 320px;
   margin-left: 61px;
-  top: 100px;
+  top: 50px;
   border-collapse: collapse;
-  font-size: 10px;
 }
 
 #inside-table2 th {
   border: 1px solid;
   text-align: center;
-  width: 80px;
+  width: 90px;
   font-size: 8px;
+  letter-spacing: 1px;
 }
 
 #inside-table2 td {
@@ -109,11 +110,11 @@
 .bottom-list2 {
   position: absolute;
   border: 2px solid;
-  width: 195.8px;
+  width: 256px;
   height: 80px;
   margin-left: -10px;
   bottom: -84px;
-  left: 8px;
+  left: 10px;
 }
 
 #bsmi-sticker2 {
@@ -149,3 +150,5 @@
   left: 110px;
   bottom: 10px;
 }
+
+
