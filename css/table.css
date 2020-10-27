@@ -22,9 +22,9 @@
 #inside-table th {
   border: 1px solid;
   text-align: center;
-  width: 90px;
+  width: 110px;
   font-size: 8px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 #inside-table td {
@@ -41,7 +41,7 @@
   border: 2px solid;
   width: 256px;
   height: 80px;
-  margin-left: -4px;
+  margin-left: -3px;
   top: 316px;
   
 }
@@ -49,20 +49,20 @@
 #bsmi-sticker {
   position: absolute;
   margin-top: 10px;
-  margin-left: 3px;
+  margin-left: 8px;
 }
 
 #sticker-no {
   position: absolute;
   font-size: 10px;
-  margin-left: 40px;
+  margin-left: 45px;
   margin-top: 10px;
 }
 
 #ro-hs {
   position: absolute;
   font-size: 8px;
-  margin-left: 40px;
+  margin-left: 45px;
   margin-top: 33px;
 }
 
@@ -70,13 +70,13 @@
   position: absolute;
   letter-spacing: 2px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 58px;
 }
 
 #type-barcode {
   position: absolute;
-  left: 110px;
+  left: 120px;
   bottom: 10px;
 }
 
@@ -86,16 +86,16 @@
   width: 260px;
   height: 320px;
   margin-left: 61px;
-  top: 50px;
+  top: 90px;
   border-collapse: collapse;
 }
 
 #inside-table2 th {
   border: 1px solid;
   text-align: center;
-  width: 90px;
+  width: 110px;
   font-size: 8px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 #inside-table2 td {
@@ -112,7 +112,7 @@
   border: 2px solid;
   width: 256px;
   height: 80px;
-  margin-left: -10px;
+  margin-left: -11px;
   bottom: -84px;
   left: 10px;
 }
@@ -120,20 +120,20 @@
 #bsmi-sticker2 {
   position: absolute;
   margin-top: 10px;
-  margin-left: 3px;
+  margin-left: 8px;
 }
 
 #sticker-no2 {
   position: absolute;
   font-size: 10px;
-  margin-left: 40px;
+  margin-left: 45px;
   margin-top: 10px;
 }
 
 #ro-hs2 {
   position: absolute;
   font-size: 8px;
-  margin-left: 40px;
+  margin-left: 45px;
   margin-top: 33px;
 }
 
@@ -141,14 +141,12 @@
   position: absolute;
   letter-spacing: 2px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 58px;
 }
 
 #type-barcode2 {
   position: absolute;
-  left: 110px;
+  left: 120px;
   bottom: 10px;
 }
-
-
