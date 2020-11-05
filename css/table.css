@@ -84,49 +84,63 @@ table {
 
 #inside-table .no-line {
   border-width: 0px 1px;
+  font-family: 標楷體;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+}
+
+.text-box{
+  width: 25px;
+  height: 15px;
+  border: 0px white;
 }
 
 .bottom-list {
-  
   width: 295px;
   height: 80px;
   margin-left: -2px;
-  top: 376px;
+}
+
+.p-nowrap{
+  display: inline;
 }
 
 #bsmi-sticker {
   position: absolute;
-  margin-top: 10px;
-  margin-left: 8px;
+  margin-top: 6px;
+  margin-left: 18px;
 }
 
 #sticker-no {
   position: absolute;
   font-size: 14px;
-  margin-left: 60px;
+  margin-left: 75px;
   margin-top: 10px;
 }
 
 #ro-hs {
   position: absolute;
   font-size: 12px;
-  margin-left: 60px;
+  margin-left: 75px;
   margin-top: 33px;
 }
 
 #type-no {
   position: absolute;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 14px;
   font-weight: 700;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 58px;
 }
 
 #type-barcode {
   position: absolute;
-  left: 120px;
-  bottom: 10px;
+  left: 160px;
+  width: 130px;
+  height: 80px;
+  
 }
 
 #inside-table2 {

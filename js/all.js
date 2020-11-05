@@ -19,16 +19,21 @@ fetch('https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[name]
 .then(function(json){
     // console.log(json);
     var list = json.data[0];
-    document.getElementById('brand').innerText= list.brand.name;
-    document.getElementById('product_name').innerText= list.product_spec.product_name;
-    document.getElementById('air-type').innerText= list.name;
-    document.getElementById('power_phase-volt').innerText= list.product_spec.power_phase + list.product_spec.power_volt + "/" + list.product_spec.capacity_heat;
-    document.getElementById('capacity_cool').innerText= list.product_spec.capacity_cool;
-    document.getElementById('company-name-tel')= list.brand.company_name + list.brand.company_tel;
-    document.getElementById('company-address')= list.brand.company_address;
+    document.getElementById('brand').innerText = list.brand.name;
+    document.getElementById('product_name').innerText = list.product_spec.product_name;
+    document.getElementById('air-type').innerText = list.name;
+    document.getElementById('power_phase-volt').innerText = list.product_spec.power_phase;
+    document.getElementById('capacity_cool').innerText = list.product_spec.capacity_cool;
+    document.getElementById('company-name').innerText = `${list.brand.company_name} ${list.brand.company_tel}`;
+    document.getElementById('company-address').innerText = list.brand.company_address;
 });
 
-
+JsBarcode("#type-barcode3", "209942", {
+    format: "code128",
+    displayValue: true,
+    height: 70,
+    width: 2
+  });
 // {
 //     data: [
 //     {
@@ -64,3 +69,4 @@ fetch('https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[name]
 //     ],
 //     public: true
 //     }
+
