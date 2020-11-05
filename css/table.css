@@ -57,7 +57,7 @@ table {
   unicode-range: U+0021-007E;
 }
 
-#inside-table {
+.inside-table {
   position: relative;
   border: 2px solid;
   width: 300px;
@@ -66,7 +66,7 @@ table {
   border-collapse: collapse;
 }
 
-#inside-table th {
+.inside-table th {
   border: 1px solid;
   text-align: center;
   width: 110px;
@@ -75,14 +75,14 @@ table {
   vertical-align: middle;
 }
 
-#inside-table td {
+.inside-table td {
   border: 1px solid;
   font-size: 12px;
   text-align: center;
   vertical-align: middle;
 }
 
-#inside-table .no-line {
+.inside-table .no-line {
   border-width: 0px 1px;
   font-family: 標楷體;
   font-size: 14px;
@@ -106,27 +106,27 @@ table {
   display: inline;
 }
 
-#bsmi-sticker {
+.bsmi {
   position: absolute;
   margin-top: 6px;
   margin-left: 18px;
 }
 
-#sticker-no {
+.sticker {
   position: absolute;
   font-size: 14px;
   margin-left: 75px;
   margin-top: 10px;
 }
 
-#ro-hs {
+.ro-hs {
   position: absolute;
   font-size: 12px;
   margin-left: 75px;
   margin-top: 33px;
 }
 
-#type-no {
+.case-no {
   position: absolute;
   letter-spacing: 3px;
   font-size: 14px;
@@ -135,7 +135,7 @@ table {
   margin-top: 58px;
 }
 
-#type-barcode {
+.barcode {
   position: absolute;
   left: 160px;
   width: 130px;

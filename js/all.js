@@ -28,11 +28,11 @@ fetch('https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[name]
     document.getElementById('company-address').innerText = list.brand.company_address;
 });
 
-JsBarcode("#type-barcode3", "209942", {
+JsBarcode("#type-barcode", "209942", {
     format: "code128",
-    displayValue: true,
     height: 70,
-    width: 2
+    width: 2,
+    displayValue: true
   });
 // {
 //     data: [

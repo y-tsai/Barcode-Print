@@ -16,7 +16,7 @@
         @import url("css/print.css") print;
       </style> -->
 
-      <table id="inside-table" class="table">
+      <table id="inside-table" class="inside-table">
         <tr>
           <td id="brand" class="no-line" colspan="3"></td>
         </tr>
@@ -29,7 +29,7 @@
         </tr>
         <tr>
           <th>電源</th>
-          <td class="power_phase" colspan="2"><p id="power_phase-volt" class="p-nowrap"></p><p class="p-nowrap">  V / <input type="text" class="text-box" id=""> HZ</p></td>
+          <td class="power_phase" colspan="2"><p id="power_phase-volt" class="p-nowrap"></p><p class="p-nowrap"><input type="text" class="text-box" id="">  V / <input type="text" class="text-box" id=""> HZ</p></td>
         </tr>
         <tr>
           <th>能力(kw)</th>
@@ -74,7 +74,7 @@
               </div>
               <div id="sticker-no" class="sticker">R36860-ETC</div>
               <div id="ro-hs" class="ro-hs">RoHS</div>
-              <div id="type-no" class="type-no">MD-AF10</div>
+              <div id="case-no" class="case-no">MD-AF10</div>
               <svg id="type-barcode" class="barcode"></svg>
             </div>
           </td>
@@ -82,77 +82,78 @@
       </table>
     </div>
     <!-- <p style="page-break-after: always"></p> -->
-    <div class="print2">
+    <div class="print">
       <!-- //列印模式 -->
       <!-- <style type="text/css">
         @import url("css/print.css") print;
       </style> -->
 
-      <table id="inside-table2">
+      <table id="inside-table2" class="inside-table">
         <tr>
-          <td id="brand2" class="no-line" colspan="3">1</td>
+          <td id="brand2" class="no-line" colspan="3"></td>
         </tr>
         <tr>
           <td id="product_name2" class="no-line" colspan="3">2</td>
         </tr>
         <tr>
           <th>機型</th>
-          <td id="air-type2" colspan="2">3</td>
+          <td id="air-type2" class="air-type" colspan="2"></td>
         </tr>
         <tr>
           <th>電源</th>
-          <td id="power_phase-volt2" colspan="2">4</td>
+          <td class="power_phase" colspan="2"><p id="power_phase-volt" class="p-nowrap"></p><p class="p-nowrap"><input type="text" class="text-box" id="">  V / <input type="text" class="text-box" id=""> HZ</p></td>
         </tr>
         <tr>
           <th>能力(kw)</th>
-          <td id="capacity_cool2" colspan="2">5</td>
+          <td id="capacity_cool2" class="capacity_cool" colspan="2"></td>
         </tr>
         <tr>
           <th>寬*高*深(mm)</th>
-          <td id="air-volume2" colspan="2">6</td>
+          <td id="air-volume2" class="air-volume" colspan="2"></td>
         </tr>
         <tr>
           <th>重量(kg)</th>
-          <td id="air-kg2" colspan="2">7</td>
+          <td id="air-kg2" class="kg" colspan="2"></td>
         </tr>
         <tr>
           <th>電氣/氣候</th>
-          <td id="air-merge2">I類</td>
-          <td id="air-snt2">T1</td>
+          <td id="air-merge2" class="air-merge">I類</td>
+          <td id="air-snt2" class="air-snt">T1</td>
         </tr>
         <tr>
           <th>IP碼</th>
-          <td id="air-ip2" colspan="2">IPX0</td>
+          <td id="air-ip2" class="air-ip" colspan="2">IPX0</td>
         </tr>
         <tr>
           <th>生產國別/年份</th>
-          <td id="air-country2" colspan="2">11</td>
+          <td id="air-country2" class="air-country" colspan="2">中華民國 / <input type="text" class="text-box" id="year"> 年</td>
         </tr>
         <tr>
-          <td id="company-name-tel2" class="no-line" colspan="3">12</td>
+          <td id="company-name2" class="no-line" colspan="3"></td>
         </tr>
         <tr>
-          <td id="company-address2" class="no-line" colspan="3">13</td>
+          <td id="company-address2" class="no-line" colspan="3"></td>
         </tr>
         <tr>
           <td colspan="3">
-            <div class="bottom-list2">
-              <div id="bsmi-sticker2">
+            <div class="bottom-list">
+              <div id="bsmi-sticker2" class="bsmi">
                 <img
                   src="file:///C:/Users/ytsai/Desktop/Barcode-Print/data/bsmi.png"
                   alt="BSMI-Sticker"
-                  width="32"
+                  width="40"
                 />
               </div>
-              <div id="sticker-no2">R36860-ETC</div>
-              <div id="ro-hs2">RoHS</div>
-              <div id="type-no2">MD-AF10</div>
-              <svg id="type-barcode2"></svg>
+              <div id="sticker-no2" class="sticker">R36860-ETC</div>
+              <div id="ro-hs2" class="ro-hs">RoHS</div>
+              <div id="case-no2" class="case-no">MD-AF10</div>
+              <svg id="type-barcode2" class="barcode"></svg>
             </div>
           </td>
         </tr>
       </table>
     </div>
+    <!-- <p style="page-break-after: always"></p> -->
   </body>
   <script src="js/all.js"></script>
   
