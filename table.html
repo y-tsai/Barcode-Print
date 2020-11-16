@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Barcode Print Table</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css"/>
     <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.css" rel="stylesheet"/>
+  
   </head>
 
   <body>
@@ -51,23 +52,30 @@
       data-show-jump-to="true"
       data-checkbox-header="false"
       data-click-to-select="true"
+      data-ajax="ajaxRequest"
     >
       <thead class="thead-light">
         <tr>
           <th data-radio="true"></th>
-          <th id="brand" data-field="brand" data-filter-control="select">Brand</th>
-          <th id="product_name" data-field="product_name">Product Name</th>
-          <th id="air_type" data-field="air_type" data-filter-control="input">Air Type</th>
-          <th id="power_phase_volt" data-field="power_phase_volt">電源</th>
-          <th id="capacity_cool" data-field="capacity_cool">額定冷氣能力(kw)</th>
-          <th id="air_volume" data-field="air_volume">寬*高*深(mm)</th>
-          <th id="air_kg" data-field="air_kg">重量</th>
-          <th id="year" data-field="year">年份 </th>
-          <th id="company_name" data-field="company_name">Company Name</th>
-          <th id="company_address" data-field="company_address">Company Address</th>
-          <th id="sticker_no" data-field="sticker_no">BSMI</th>
-          <th id="case_no" data-field="case_no">機殼編號</th>
-          <th id="type_barcode" data-field="barcode_no">條碼編號</th>
+          <th data-field="brand" data-filter-control="select">Brand</th>
+          <th data-field="product_name">Product Name</th>
+          <th data-field="air_type" data-filter-control="input">Air Type</th>
+          <th data-field="power_phase">電源</th>
+          <th data-field="power_v">V</th>
+          <th data-field="power_hz">Hz</th>
+          <th data-field="capacity_cool">額定冷氣能力(kw)</th>
+          <th data-field="capacity_warm">額定冷氣能力(kw)</th>
+          <th data-field="air_width">寬(mm)</th>
+          <th data-field="air-height">高(mm)</th>
+          <th data-field="air-depth">深(mm)</th>
+          <th data-field="air_kg">重量(kg)</th>
+          <th data-field="year">年份 </th>
+          <th data-field="company_name">Company Name</th>
+          <th data-field="company_phone">Company Phone</th>
+          <th data-field="company_address">Company Address</th>
+          <th data-field="sticker_no">BSMI</th>
+          <th data-field="case_no">機殼編號</th>
+          <th data-field="barcode_no">條碼編號</th>
         </tr>
       </thead>
     </table>
@@ -77,5 +85,6 @@
     <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.js"></script>
+    <script src="js/table.js"></script>
   </body>
 </html>

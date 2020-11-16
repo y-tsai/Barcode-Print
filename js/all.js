@@ -1,3 +1,4 @@
+
 // const content = document.querySelector(".print").innerHTML;
 // const newPage = window.open("", "", "width=200,height=280");
 // newPage.document.write(content);
@@ -8,6 +9,7 @@
 // for(var i = 0; i <= barcode_no; i++){
 
 // }
+// 第二個表單隱藏
 $(document).ready(function(e){
     $("#inside-table2").hide();
 });
