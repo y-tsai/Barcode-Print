@@ -1,41 +1,35 @@
-
-// const content = document.querySelector(".print").innerHTML;
-// const newPage = window.open("", "", "width=200,height=280");
-// newPage.document.write(content);
-// newPage.print();
-
-// var barcode_no = document.getElementById('type-barcode')
-
-// for(var i = 0; i <= barcode_no; i++){
-
-// }
 // 第二個表單隱藏
 $(document).ready(function(e){
     $("#inside-table2").hide();
 });
 
-fetch('https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[name][eq]=JC-28NH')
+
+fetch('https://backend.jin-ting.com.tw/api/items/barcode_print')
 .then(function(response){
     return response.json();
 })
 .then(function(json){
     // console.log(json);
     var list = json.data[0];
-    document.getElementById('brand').innerText = list.brand.name;
-    document.getElementById('product_name').innerText = list.product_spec.product_name;
-    document.getElementById('air-type').innerText = list.name;
-    document.getElementById('power_phase-volt').innerText = list.product_spec.power_phase;
-    document.getElementById('capacity_cool').innerText = list.product_spec.capacity_cool;
-    document.getElementById('company-name').innerText = `${list.brand.company_name} ${list.brand.company_tel}`;
-    document.getElementById('company-address').innerText = list.brand.company_address;
+    document.getElementById('brand').innerText = list.brand;
+    document.getElementById('product_name').innerText = list.product_name;
+    document.getElementById('air_type').innerText = list.air_type;
+    document.getElementById('power_phase_volt').innerText =`${list.power_phase} ${list.power_v} ${list.power_hz}`;
+    document.getElementById('capacity_cold').innerText = list.capacity_cold;
+    document.getElementById('air_volume').innerText = `${list. air_width} ${list.air_height} ${list. air_depth}`;
+    document.getElementById('air_kg').innerText = list.air_kg;
+    document.getElementById('year').innerText = list.year;
+    document.getElementById('company_name').innerText = `${list.company_name} ${list.company_phone}`;
+    document.getElementById('company_address').innerText = list.company_address;
 });
 
-JsBarcode("#type-barcode", "209942", {
+JsBarcode("#type_barcode", "209942", {
     format: "code128",
     height: 70,
     width: 2,
     displayValue: true
   });
+
 // {
 //     data: [
 //     {
@@ -71,4 +65,3 @@ JsBarcode("#type-barcode", "209942", {
 //     ],
 //     public: true
 //     }
-
