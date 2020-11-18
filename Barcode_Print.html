@@ -33,11 +33,7 @@
         <tr>
           <th>電源</th>
           <td class="power_phase" colspan="2">
-            <p id="power_phase_volt" class="p-nowrap"></p>
-            <p class="p-nowrap">
-              <!-- <input type="text" class="text-box" id="" /> V /
-              <input type="text" class="text-box" id="" /> HZ -->
-            </p>
+            <p id="power_phase_volt"><span id="power_phase"> </span> <span id="power_v"></span><span>V</span> <span>60Hz</span></p>
           </td>
         </tr>
         <tr>
@@ -65,7 +61,7 @@
         <tr>
           <th>生產國別/年份</th>
           <td id="air_country" class="air-country" colspan="2">
-           <p>中華民國 / <p id="year"></p> 年 </p>
+           <p>中華民國 / <span id="year"></span> 年</p>
           </td>
         </tr>
         <tr>
@@ -77,6 +73,7 @@
         <tr>
           <td colspan="3">
             <div class="bottom-list">
+              <div class="bsmi-box">
               <div id="bsmi_sticker" class="bsmi">
                 <img
                   src="file:///C:/Users/ytsai/Desktop/Barcode-Print/data/bsmi.png"
@@ -86,6 +83,7 @@
               </div>
               <div id="sticker_no" class="sticker">R36860-ETC</div>
               <div id="ro_hs" class="ro-hs">RoHS</div>
+            </div>
               <div id="case_no" class="case-no">MD-AF10</div>
               <svg id="type_barcode" class="barcode"></svg>
             </div>
