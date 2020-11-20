@@ -56,12 +56,12 @@
     >
       <thead class="thead-light">
         <tr>
-          <!-- <th data-radio="true"></th> -->
+          <th data-radio="true" id="select"></th>
           <th data-field="brand" data-filter-control="select">Brand</th>
-          <th data-field="product_name" data-filter-control="input">Product Name</th>
+          <th data-field="product_name" data-filter-control="select">Product Name</th>
           <th data-field="air_type" data-filter-control="input">Air Type</th>
           <th data-field="power_phase" data-filter-control="select">電源</th>
-          <th data-field="power_volt" data-filter-control="select">V</th>
+          <th data-field="power_volt">V</th>
           <!-- <th data-field="power_hz">Hz</th> -->
           <th data-field="capacity_cool">額定冷氣能力(kw)</th>
           <th data-field="capacity_heat">額定暖氣能力(kw)</th>
@@ -79,6 +79,55 @@
         </tr>
       </thead>
     </table>
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">
+              能力表列印確認
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Brand ： <input type="text" id="brand" readonly /></p>
+            <p>機型 ： <input type="text" id="air_type" readonly /></p>
+            <p>電源 ： <input type="text" id="power_phase" readonly /></p>
+            <p>
+              額定冷氣能力(kw) ：
+              <input type="text" id="capacity_cool" readonly />
+            </p>
+            <p>*年份 ： <input required type="text" id="year" /></p>
+            <p>*流水號 ： <input type="text" id="" /></p>
+            <p>機殼編號 ： <input type="text" id="" /></p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              關閉
+            </button>
+            <button type="button" class="btn btn-primary" onclick="window.open('Barcode_Print.html')">確認</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

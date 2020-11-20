@@ -30,28 +30,4 @@ JsBarcode("#type_barcode", "209942", {
     displayValue: true
   });
 
-//   id: 7,
-//   name: "JC-28NH",
-//   product_group: {
-//   id: 95,
-//   name: "28NH",
-//   description: "外機-NH型-28NH"
-//   },
-//   brand: {
-//   id: 1,
-//   name: "Jin-Ting 金鼎冷氣",
-//   company_name: "南亨科技股份有限公司",
-//   company_address: "台南市安定區中沙里沙崙26-1號",
-//   company_tel: "06-5931111",
-//   name_short: "金鼎"
-//   },
-//   product_spec: {
-//   id: 13,
-//   name: "28NH",
-//   product_name: "分離式冷專室外機",
-//   power_phase: "單相",
-//   power_volt: "220",
-//   capacity_cool: "2.8",
-//   capacity_heat: null,
-//   product_type: "outdoor"
-//   }
+ 

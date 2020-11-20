@@ -1,3 +1,9 @@
+var $table = $('#table')
+
+  $(function() {
+    $table.bootstrapTable('hideColumn', ['company_name','company_tel','company_address','capacity_heat']);
+  })
+
 function ajaxRequest(params) {
   var url = "https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[product_spec][neq]=";
 
@@ -25,4 +31,6 @@ function ajaxRequest(params) {
     
   });
 }
-
+$("#table row").on("show.bs.modal",function(e){
+  console.log('顯示視窗前呼叫');
+});
