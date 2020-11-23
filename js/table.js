@@ -1,7 +1,7 @@
 var $table = $('#table')
 
   $(function() {
-    $table.bootstrapTable('hideColumn', ['company_name','company_tel','company_address','capacity_heat']);
+    $table.bootstrapTable('hideColumn', ['company_name','company_tel','company_address','capacity_heat','air_kg']);
   })
 
 function ajaxRequest(params) {
@@ -31,6 +31,15 @@ function ajaxRequest(params) {
     
   });
 }
-$("#table row").on("show.bs.modal",function(e){
-  console.log('顯示視窗前呼叫');
+
+$(document).ready(function () {
+  var $table = $('#table');
+
+  $table.on('click-row.bs.table', function () {
+    $('#barcode-modal').modal('show');
+    
+  });
 });
+
+
+
