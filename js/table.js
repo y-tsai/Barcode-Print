@@ -40,13 +40,20 @@ function ajaxRequest(params) {
 }
 
 $barcodePrintTable.on("click-row.bs.table", function () {
-  $("#barcode-modal").modal("show");
+  $barcodeModal.modal("show");
+  $barcodeModal.on('show.bs.modal', function(){
+    var rows = $barcodePrintTable.bootstrapTable('getData');
+    document.getElementById('brand').innerText = row.brand.value;
+
+    console.log(rows);
+  });
+
 });
 
-function check() {
-  var rows = $barcodePrintTable.bootstrapTable('getData');
-  // alert(JSON.stringify(rows));
-  console.log(rows);
-};
+// function check() {
+//   var rows = $barcodePrintTable.bootstrapTable('getData');
+//   // alert(JSON.stringify(rows));
+//   console.log(rows);
+// };
 
 
