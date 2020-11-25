@@ -40,9 +40,11 @@
         >
       </li>
     </ul>
+
+    <button onclick="check()"> CHECK </button>
     
     <table
-      id="table"
+      id="barcodePrint-table"
       data-toggle="table"
       class="table table-hover"
       data-height="800"
@@ -90,23 +92,25 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="ModalCenterTitle">
-              能力表列印確認
+              列印確認
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <p>Brand ： <input type="text" id="brand" readonly /></p>
-            <p>機型 ： <input type="text" id="air_type" readonly /></p>
-            <p>電源 ： <input type="text" id="power_phase" readonly /></p>
-            <p>
+            <form id="check-form">
+            <label>Brand ： <input type="text" id="brand" readonly /></label>
+            <label>機型 ： <input type="text" id="air_type" readonly /></label>
+            <label>電源 ： <input type="text" id="power_volt" readonly /></label>
+            <label>
               額定冷氣能力(kw) ：
               <input type="text" id="capacity_cool" readonly />
-            </p>
-            <p>*年份 ： <input required type="text" id="year" /></p>
-            <p>*流水號 ： <input type="text" id="" /></p>
-            <p>機殼編號 ： <input type="text" id="" /></p>
+            </label>
+            <label>*年份 ： <input required="required" type="text" id="year" /></label>
+            <label>*流水號 ： <input type="text" id="barcode_no" /></label>
+            <label>機殼編號 ： <input type="text" id="case_no" /></label>
+          </form>
           </div>
           <div class="modal-footer">
             <button id="btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">

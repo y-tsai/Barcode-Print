@@ -1,13 +1,21 @@
-var $table = $('#table')
+var $barcodeModal = $("#barcode-modal");
+var $barcodePrintTable = $("#barcodePrint-table");
 
-  $(function() {
-    $table.bootstrapTable('hideColumn', ['company_name','company_tel','company_address','capacity_heat','air_kg']);
-  })
+$(function () {
+  $barcodePrintTable.bootstrapTable("hideColumn", [
+    "company_name",
+    "company_tel",
+    "company_address",
+    "capacity_heat",
+    "air_kg",
+  ]);
+});
 
 function ajaxRequest(params) {
-  var url = "https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[product_spec][neq]=";
+  var url =
+    "https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[product_spec][neq]=";
 
-  $.get(url).then(function (res) {   
+  $.get(url).then(function (res) {
     var listable = res.data;
     list = listable.map((product) => {
       return {
@@ -28,18 +36,17 @@ function ajaxRequest(params) {
       };
     });
     params.success(list);
-    
   });
 }
 
-$(document).ready(function () {
-  var $table = $('#table');
-
-  $table.on('click-row.bs.table', function () {
-    $('#barcode-modal').modal('show');
-    
-  });
+$barcodePrintTable.on("click-row.bs.table", function () {
+  $("#barcode-modal").modal("show");
 });
 
+function check() {
+  var rows = $barcodePrintTable.bootstrapTable('getData');
+  // alert(JSON.stringify(rows));
+  console.log(rows);
+};
 
 
