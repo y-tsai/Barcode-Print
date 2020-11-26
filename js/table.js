@@ -1,5 +1,6 @@
 var $barcodeModal = $("#barcode-modal");
 var $barcodePrintTable = $("#barcodePrint-table");
+var $checkForm = $("#check-form");
 
 $(function () {
   $barcodePrintTable.bootstrapTable("hideColumn", [
@@ -39,21 +40,30 @@ function ajaxRequest(params) {
   });
 }
 
-$barcodePrintTable.on("click-row.bs.table", function () {
+$barcodePrintTable.on("click-row.bs.table", function (e,row) {
+  
+  var row = JSON.stringify(row);
+  console.log(row); 
+  
   $barcodeModal.modal("show");
-  $barcodeModal.on('show.bs.modal', function(){
-    var rows = $barcodePrintTable.bootstrapTable('getData');
-    document.getElementById('brand').innerText = row.brand.value;
-
-    console.log(rows);
-  });
-
+  
+  // var rows = $barcodePrintTable.bootstrapTable('getData');
 });
 
-// function check() {
-//   var rows = $barcodePrintTable.bootstrapTable('getData');
-//   // alert(JSON.stringify(rows));
-//   console.log(rows);
-// };
+
+var rows = $barcodePrintTable.bootstrapTable("getData");
+
+
+
+// const {
+//   brand,
+//   air_type,
+//   power_volt,
+//   capacity_cool,
+//   year,
+//   barcode_no,
+//   case_no
+// } = checkForm.elements;
+
 
 
