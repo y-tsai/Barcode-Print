@@ -39,21 +39,18 @@ function ajaxRequest(params) {
     params.success(list);
   });
 }
+function list_modal() {
 
-$barcodePrintTable.on("click-row.bs.table", function (e,row) {
-  
-  var row = JSON.stringify(row);
-  console.log(row); 
-  
-  $barcodeModal.modal("show");
-  
-  // var rows = $barcodePrintTable.bootstrapTable('getData');
-});
+  $barcodePrintTable.on("click-row.bs.table", function(e, row) {
+      $barcodeModal.modal("show");
+      console.log(row);
+  });
 
+    
+}
+list_modal();
 
-var rows = $barcodePrintTable.bootstrapTable("getData");
-
-
+// var rows = $barcodePrintTable.bootstrapTable("getData");
 
 // const {
 //   brand,
@@ -64,6 +61,3 @@ var rows = $barcodePrintTable.bootstrapTable("getData");
 //   barcode_no,
 //   case_no
 // } = checkForm.elements;
-
-
-
