@@ -39,16 +39,19 @@ function ajaxRequest(params) {
     params.success(list);
   });
 }
-function list_modal() {
 
-  $barcodePrintTable.on("click-row.bs.table", function(e, row) {
-      $barcodeModal.modal("show");
-      console.log(row);
-  });
+$barcodePrintTable.on("click-row.bs.table", function (e, row) {
+  $barcodeModal.modal("show");
+  document.getElementById("brand").value = row.brand;
+  document.getElementById("air_type").value = row.air_type;
+  document.getElementById("power_volt").value = row.power_volt;
+  document.getElementById("capacity_cool").value = row.capacity_cool;
+  document.getElementById("case_no").value = row.case_no;
+});
 
-    
-}
-list_modal();
+$("#btn-modal-confirm").on("click", function (e) {
+  window.open("Barcode_Print.html", "Barcode_Print");
+});
 
 // var rows = $barcodePrintTable.bootstrapTable("getData");
 
