@@ -47,11 +47,30 @@ $barcodePrintTable.on("click-row.bs.table", function (e, row) {
   document.getElementById("power_volt").value = row.power_volt;
   document.getElementById("capacity_cool").value = row.capacity_cool;
   document.getElementById("case_no").value = row.case_no;
+
+
 });
 
 $("#btn-modal-confirm").on("click", function (e) {
   window.open("Barcode_Print.html", "Barcode_Print");
 });
+
+var modal_json = '[{}]';
+var parsedObj = JSON.parse(modal_json);
+
+var dataArr = [];
+$.ajax({
+  url: '/table.html',
+  type: 'post',
+  data: JSON.stringify({Data: parsedObj,}),
+  dataType: 'json',
+  error: function(xhr) {},
+  success: function(response) {},
+});
+
+
+
+
 
 // var rows = $barcodePrintTable.bootstrapTable("getData");
 
