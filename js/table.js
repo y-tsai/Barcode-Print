@@ -48,38 +48,18 @@ $barcodePrintTable.on("click-row.bs.table", function (e, row) {
   document.getElementById("capacity_cool").value = row.capacity_cool;
   document.getElementById("case_no").value = row.case_no;
 
+  $("#btn-modal-confirm").on("click", function (e) {
+    var print_page = `href="Print_Page.html?brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${row.case_no}&year=${modal.year}&barcode_no=${modal.barcode_no}"`;
+    window.open('print_page', "Barcode_PrintPage");  
+  });
 
 });
 
-$("#btn-modal-confirm").on("click", function (e) {
-  window.open("Barcode_Print.html", "Barcode_Print");
-});
-
-var modal_json = '[{}]';
-var parsedObj = JSON.parse(modal_json);
-
-var dataArr = [];
-$.ajax({
-  url: '/table.html',
-  type: 'post',
-  data: JSON.stringify({Data: parsedObj,}),
-  dataType: 'json',
-  error: function(xhr) {},
-  success: function(response) {},
-});
 
 
 
 
 
-// var rows = $barcodePrintTable.bootstrapTable("getData");
 
-// const {
-//   brand,
-//   air_type,
-//   power_volt,
-//   capacity_cool,
-//   year,
-//   barcode_no,
-//   case_no
-// } = checkForm.elements;
+
+
