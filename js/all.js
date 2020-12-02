@@ -12,7 +12,9 @@ $(document).ready(function(e){
   var airHeight = url.searchParams.get('air_height');
   var airDepth = url.searchParams.get('air_depth');
   var airVolume = airWidth + " * " + airHeight + " * " + airDepth;
-  
+  var companyName = url.searchParams.get('company_name');
+  var companyTel = url.searchParams.get('company_tel');
+  var comPany = companyName+companyTel;
 
   document.getElementById('brand').innerText = url.searchParams.get('brand');
   document.getElementById('product_name').innerText = url.searchParams.get('product_name');
@@ -23,7 +25,7 @@ $(document).ready(function(e){
   document.getElementById('air_volume').innerHTML = airVolume;
   document.getElementById('air_kg').innerText = url.searchParams.get('air_kg');
   document.getElementById('year').innerText = url.searchParams.get('year');
-  document.getElementById('company_name').innerText = url.searchParams.get('company_name');
+  document.getElementById('company_name').innerHTML = comPany;
   document.getElementById('company_address').innerText = url.searchParams.get('company_address');
   document.getElementById('case_no').innerText = url.searchParams.get('case_no');
 

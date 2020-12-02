@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.css" rel="stylesheet"/>
-  
+    
   </head>
 
   <body>
@@ -60,20 +60,17 @@
           <th data-field="air_type" data-filter-control="input">Air Type</th>
           <th data-field="power_phase" data-filter-control="select">電源</th>
           <th data-field="power_volt">V</th>
-          <!-- <th data-field="power_hz">Hz</th> -->
           <th data-field="capacity_cool">額定冷氣能力(kw)</th>
           <th data-field="capacity_heat">額定暖氣能力(kw)</th>
           <th data-field="air_width">寬(mm)</th>
           <th data-field="air_height">高(mm)</th>
           <th data-field="air_depth">深(mm)</th>
           <th data-field="air_kg">重量(kg)</th>
-          <!-- <th data-field="year">年份</th> -->
           <th data-field="company_name">Company Name</th>
           <th data-field="company_tel">Company Phone</th>
           <th data-field="company_address">Company Address</th>
           <th data-field="sticker_no">BSMI</th>
           <th data-field="case_no">機殼編號</th>
-          <!-- <th data-field="barcode_no">條碼編號</th> -->
         </tr>
       </thead>
     </table>
@@ -97,14 +94,14 @@
           </div>
           <div class="modal-body">
             <form id="check-form">
-            <label>Brand ： <input type="text" id="brand" readonly /></label>
-            <label>機型 ： <input type="text" id="air_type" readonly /></label>
-            <label>電源 ： <input type="text" id="power_volt" readonly /></label>
+            <label>Brand ： <p id="brand"></p></label> <br> 
+            <label>機型 ： <p id="air_type"></p></label> <br> 
+            <label>電源 ： <p id="power_volt"></p></label> <br> 
             <label>
               額定冷氣能力(kw) ：
-              <input type="text" id="capacity_cool" readonly />
-            </label>
-            <label>*年份 ： <input required="required" type="text" id="year" /></label>
+              <p id="capacity_cool"></p>
+            </label> <br> 
+            <label>*年份 ： <input required="required" type="text" id="year" /></label> 
             <label>*流水號 ： <input type="text" id="barcode_no" /></label>
             <label>機殼編號 ： <input type="text" id="case_no" /></label>
           </form>
