@@ -56,34 +56,38 @@ $barcodePrintTable.on("click-row.bs.table", function (e, row) {
   document.getElementById("case_no").value = row.case_no;
   document.getElementById("product_class").innerText = row.product_class;
 
-  $btnModalConfirm.on("click",function(){
-    
-    var Cla = row.product_class;
+ $btnModalConfirm.on("click", function check_on() {
+    var cla = row.product_class;
     // var getClass = $barcodeModal.bootstrapTable('getSelections');
-
     var barcode_no = $("#barcode_no").val();
     var year = $("#year").val();
     var case_no = $("#case_no").val();
     var InverterPrint = `InverterPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
-    var ColdPrint = `CodePrint.html?brand=product_class=${row.product_class}&${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
-    console.log(Cla);
-
-    if (Cla == "冷暖") {
+    var ColdPrint = `CodePrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+    
+    
+    switch (cla){
+      case "冷暖":
       window.open(InverterPrint, "_blank");
-    }else{
+      break;
+      default:
       window.open(ColdPrint, "_blank");
+      break;
     };
+    
   });
+
 });
 
 
 
+ 
 
 
-// $("#btn-modal-confirm").on("click", function (e) {
-//   var barcode_no = $("#barcode_no").val();
-//   var year = $("#year").val();
-//   var case_no = $("#case_no").val();
-//   var print_page = `InverterPrint.html?brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
-//   window.open(print_page, "_blank");
-// });
+  // $("#btn-modal-confirm").on("click", function (e) {
+  //   var barcode_no = $("#barcode_no").val();
+  //   var year = $("#year").val();
+  //   var case_no = $("#case_no").val();
+  //   var ColdPrint = `ColdPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+  //   window.open(ColdPrint, "_blank");
+  // });
