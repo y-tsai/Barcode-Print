@@ -1,10 +1,10 @@
 var $barcodeModal = $("#barcode-modal");
-var $barcodePrintTable = $("#barcodePrint-table");
+var $inDoorTable = $("#indoor-table");
 var $checkForm = $("#check-form");
 var $btnModalConfirm = $("#btn-modal-confirm");
 
 $(function () {
-  $barcodePrintTable.bootstrapTable("hideColumn", [
+  $inDoorTable.bootstrapTable("hideColumn", [
     "company_name",
     "company_tel",
     "company_address",
@@ -48,7 +48,7 @@ function ajaxRequest(params) {
 }
 
 let row = undefined;
-$barcodePrintTable.on("click-row.bs.table", function (e, rows) {
+$inDoorTable.on("click-row.bs.table", function (e, rows) {
   $barcodeModal.modal("show");
   document.getElementById("brand").innerText = rows.brand;
   document.getElementById("air_type").innerText = rows.air_type;

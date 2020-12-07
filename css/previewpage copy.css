@@ -43,18 +43,7 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-@font-face {
-  font-family: MingLiU;
-  src: url("font/MingLiU.woff") format("woff");
-  unicode-range: U+4E00-9FFF;
-}
-@font-face {
-  font-family: arial;
-  src: url("font/arial.woff") format("woff");
-  unicode-range: U+0021-007E;
+  border-spacing: 0;
 }
 
 .inside-table {
@@ -62,14 +51,14 @@ table {
   border: 2px solid;
   width: 300px;
   height: 420px;
-  margin-left: 61px;
+  left: 40px;
   border-collapse: collapse;
 }
 
 .inside-table th {
   border: 1px solid;
   text-align: center;
-  width: 110px;
+  width: 120px;
   font-size: 14px;
   letter-spacing: 2px;
   vertical-align: middle;
@@ -77,7 +66,7 @@ table {
 
 .inside-table td {
   border: 1px solid;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   vertical-align: middle;
 }
@@ -90,14 +79,8 @@ table {
   font-weight: 800;
 }
 
-.text-box{
-  width: 25px;
-  height: 15px;
-  border: 0px white;
-}
-
 .bottom-list {
-  width: 295px;
+  width: 250px;
   height: 80px;
   margin-left: -2px;
 }
@@ -109,20 +92,19 @@ table {
 .bsmi {
   position: absolute;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
 }
-
 .sticker {
   position: absolute;
   font-size: 14px;
-  margin-left: 75px;
+  margin-left: 55px;
   margin-top: 10px;
 }
 
 .ro-hs {
   position: absolute;
   font-size: 12px;
-  margin-left: 75px;
+  margin-left: 55px;
   margin-top: 33px;
 }
 
@@ -132,87 +114,13 @@ table {
   font-size: 14px;
   font-weight: 700;
   margin-left: 20px;
-  margin-top: 58px;
+  margin-top: 60px;
 }
 
 .barcode {
   position: absolute;
-  left: 160px;
-  width: 130px;
-  height: 80px;
   
-}
-
-#inside-table2 {
-  position: relative;
-  border: 2px solid;
-  width: 300px;
-  height: 420px;
-  margin-left: 61px;
-  top: 90px;
-  border-collapse: collapse;
-}
-
-#inside-table2 th {
-  border: 1px solid;
-  text-align: center;
-  width: 110px;
-  font-size: 14px;
-  letter-spacing: 2px;
-  vertical-align: middle;
-}
-
-#inside-table2 td {
-  border: 1px solid;
-  font-size: 12px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-#inside-table2 .no-line {
-  border-width: 0px 1px;
-}
-
-.bottom-list2 {
-  
-  width: 295px;
-  height: 80px;
-  margin-left: -11px;
-  bottom: -84px;
-  left: 10px;
-}
-
-#bsmi-sticker2 {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 8px;
-}
-
-#sticker-no2 {
-  position: absolute;
-  font-size: 14px;
-  margin-left: 60px;
-  margin-top: 10px;
-}
-
-#ro-hs2 {
-  position: absolute;
-  font-size: 12px;
-  margin-left: 60px;
-  margin-top: 33px;
-}
-
-#type-no2 {
-  position: absolute;
-  letter-spacing: 2px;
-  font-size: 14px;
-  font-weight: 700;
-  margin-left: 15px;
-  margin-top: 58px;
-}
-
-#type-barcode2 {
-  position: absolute;
-  left: 120px;
-  bottom: 10px;
+  left: 145px;
+  width: 115px;
+  height: 90px;
 }
