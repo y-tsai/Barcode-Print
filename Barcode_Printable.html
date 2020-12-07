@@ -14,32 +14,20 @@
   </head>
 
   <body>
-    <ul class="barcode inside-tab" id="barcode-tabs" role="tablist">
-      <li class="barcode-item">
-        <a
-          class="inside"
-          id="inside-tab"
-          data-toggle="tab"
-          href=""
-          role="tab"
-          aria-controls=""
-          aria-selected="true"
-          >內機</a
-        >
-      </li>
-      <li class="barcode-item">
-        <a
-          class="outside"
-          id="outside-tab"
-          data-toggle="tab"
-          href=""
-          role="tab"
-          aria-controls=""
-          aria-selected="true"
-          >外機</a
-        >
-      </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-tabs" role="tablist">
+        <li class="barcode-item">
+          <a class="nav-link" id="inside-tab" data-toggle="tab" role="tab" href="">Indoor</a>
+        </li>
+        <li class="barcode-item">
+          <a class="nav-link" id="outside-tab" data-toggle="tab" role="tab" href="">Outdoor</a>
+        </li>
+      </nav>
     <table
       id="barcodePrint-table"
       data-toggle="table"

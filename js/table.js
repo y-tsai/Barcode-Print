@@ -74,16 +74,17 @@ $btnModalConfirm.on("click", function check_on() {
   }else{
     window.open(ColdPrint, "_blank");
   };
-  // // switch (cla){
-  // //   case "冷暖":
-  // //     window.open(InverterPrint, "_blank");
-  // //     break;  
-  // //   default:
-  // //     window.open(ColdPrint, "_blank");
-  // //   break;
+  // switch (cla){
+  //   case "冷暖":
+  //     window.open(InverterPrint, "_blank");
+  //     break;  
+  //   default:
+  //     window.open(ColdPrint, "_blank");
+  //   break;
   // };
   
 });
+
 
 
 
