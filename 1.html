@@ -1,0 +1,175 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes">
+    <title>CodePrintPage</title>
+    <link rel="stylesheet" href="css/previewpage.css">
+    <script src="js/JsBarcode.all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/jspdf.min.js"></script>
+    <script src="js/jspdf.plugin.autotable.min.js"></script>
+  <style shopback-extension-v6-2-1="" data-styled-version="4.2.0"></style></head>
+  <body>
+    <div class="print" id="index">
+      <!-- //列印模式 -->
+      <!-- <style type="text/css">
+        @import url("css/print.css") print;
+      </style> -->
+
+      <table id="inside-table" class="inside-table">
+        <tbody><tr>
+          <td id="brand" class="no-line" colspan="3">Jin-Ting 金鼎冷氣</td>
+        </tr>
+        <tr>
+          <td id="product_name" class="no-line" colspan="3">變頻分離式冷專室內機</td>
+        </tr>
+        <tr>
+          <th style="letter-spacing: 30px; text-align: right">機型</th>
+          <td id="air_type" class="air-type" colspan="2">JSV-28AB</td>
+        </tr>
+        <tr>
+          <th style="letter-spacing: 30px; text-align: right">電源</th>
+          <td class="power_phase" colspan="2">
+            <p id="power_phase_volt">
+              <span id="power_phase">單相</span> <span id="power_volt">220</span><span>V</span> <span>60Hz</span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>能力(kw)</th>
+          <td id="capacity_cool" class="capacity_cool" colspan="2">2.8</td>
+        </tr>
+        <tr>
+          <th>寬*高*深(mm)</th>
+          <td id="air_volume" class="air-volume" colspan="2">715 * 285 * 200</td>
+        </tr>
+        <tr>
+          <th>重量(kg)</th>
+          <td class="kg" colspan="2">
+            <p><span id="air_kg">7.2</span> kg</p>
+          </td>
+        </tr>
+        <tr>
+          <th>電氣/氣候</th>
+          <td id="air_merge" class="air-merge">I類</td>
+          <td id="air_snt" class="air-snt">T1</td>
+        </tr>
+        <tr>
+          <th>IP碼</th>
+          <td id="air_ip" class="air-ip" colspan="2">IPX0</td>
+        </tr>
+        <tr>
+          <th>生產國別/年份</th>
+          <td id="air_country" class="air-country" colspan="2">
+            <p>中華民國 / <span id="year">109</span> 年</p>
+          </td>
+        </tr>
+        <tr>
+          <td id="company_name" class="no-line" colspan="3">南亨科技股份有限公司06-5931111</td>
+        </tr>
+        <tr>
+          <td id="company_address" class="no-line" colspan="3">台南市安定區中沙里沙崙26-1號</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="bottom-list">
+              <div class="bsmi-box">
+                <div id="bsmi_sticker" class="bsmi">
+                  <img src="file:///C:/Users/ytsai/Desktop/Barcode-Print/data/bsmi.png" alt="BSMI-Sticker" width="35">
+                </div>
+                <div id="sticker_no" class="sticker">R36860-ETC</div>
+                <div id="ro_hs" class="ro-hs">RoHS</div>
+              </div>
+              <div class="case-no"><p id="case_no">MD-AB10E</p></div>
+              <svg id="barcode_no" class="barcode" width="156px" height="112px" x="0px" y="0px" viewBox="0 0 156 112" xmlns="http://www.w3.org/2000/svg" version="1.1" style="transform: translate(0,0)"><rect x="0" y="0" width="156" height="112" style="fill:#ffffff;"></rect><g transform="translate(10, 10)" style="fill:#000000;"><rect x="0" y="0" width="4" height="70"></rect><rect x="6" y="0" width="2" height="70"></rect><rect x="12" y="0" width="6" height="70"></rect><rect x="22" y="0" width="2" height="70"></rect><rect x="26" y="0" width="4" height="70"></rect><rect x="34" y="0" width="6" height="70"></rect><rect x="44" y="0" width="2" height="70"></rect><rect x="52" y="0" width="2" height="70"></rect><rect x="56" y="0" width="4" height="70"></rect><rect x="66" y="0" width="6" height="70"></rect><rect x="78" y="0" width="2" height="70"></rect><rect x="82" y="0" width="4" height="70"></rect><rect x="88" y="0" width="2" height="70"></rect><rect x="96" y="0" width="4" height="70"></rect><rect x="102" y="0" width="6" height="70"></rect><rect x="110" y="0" width="4" height="70"></rect><rect x="120" y="0" width="6" height="70"></rect><rect x="128" y="0" width="2" height="70"></rect><rect x="132" y="0" width="4" height="70"></rect><text style="font: 20px monospace" text-anchor="middle" x="68" y="92">123456</text></g></svg>
+            </div>
+          </td>
+        </tr>
+      </tbody></table>
+    </div>
+
+    <button id="btn">Btn</button>
+
+    <!-- <p style="page-break-after: always"></p> -->
+    <!-- <div class="print">
+      
+      <table id="inside-table2" class="inside-table">
+        <tr>
+          <td id="brand2" class="no-line" colspan="3"></td>
+        </tr>
+        <tr>
+          <td id="product_name2" class="no-line" colspan="3">2</td>
+        </tr>
+        <tr>
+          <th>機型</th>
+          <td id="air-type2" class="air-type" colspan="2"></td>
+        </tr>
+        <tr>
+          <th>電源</th>
+          <td class="power_phase" colspan="2">
+            <p id="power_phase-volt" class="p-nowrap"></p>
+            <p class="p-nowrap">
+              <input type="text" class="text-box" id="" /> V /
+              <input type="text" class="text-box" id="" /> HZ
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>能力(kw)</th>
+          <td id="capacity_cool2" class="capacity_cool" colspan="2"></td>
+        </tr>
+        <tr>
+          <th>寬*高*深(mm)</th>
+          <td id="air_volume2" class="air-volume" colspan="2"></td>
+        </tr>
+        <tr>
+          <th>重量(kg)</th>
+          <td id="air_kg2" class="kg" colspan="2"></td>
+        </tr>
+        <tr>
+          <th>電氣/氣候</th>
+          <td id="air_merge2" class="air-merge">I類</td>
+          <td id="air_snt2" class="air-snt">T1</td>
+        </tr>
+        <tr>
+          <th>IP碼</th>
+          <td id="air_ip2" class="air-ip" colspan="2">IPX0</td>
+        </tr>
+        <tr>
+          <th>生產國別/年份</th>
+          <td id="air_country2" class="air-country" colspan="2">
+            中華民國 / <input type="text" class="text-box" id="year" /> 年
+          </td>
+        </tr>
+        <tr>
+          <td id="company_name2" class="no-line" colspan="3"></td>
+        </tr>
+        <tr>
+          <td id="company_address2" class="no-line" colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="bottom-list">
+              <div id="bsmi_sticker2" class="bsmi">
+                <img
+                  src="file:///C:/Users/ytsai/Desktop/Barcode-Print/data/bsmi.png"
+                  alt="BSMI-Sticker"
+                  width="40"
+                />
+              </div>
+              <div id="sticker_no2" class="sticker">R36860-ETC</div>
+              <div id="ro_hs2" class="ro-hs">RoHS</div>
+              <div id="case_no2" class="case-no">MD-AF10</div>
+              <svg id="type_barcode2" class="barcode"></svg>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div> -->
+    <!-- <p style="page-break-after: always"></p> -->
+  
+  <script src="js/ColdPrint.js"></script>
+  <script src="dist/jspdf.customfonts.debug.js"></script>
+  <script src="dist/jspdf.customfonts.min.js"></script>
+  <script src="js/jspdf.debug.js"></script>
+
+</body><div id="shopback-app" style="z-index: 2147483647 !important;"><div id="PriceComparison"></div></div></html>
