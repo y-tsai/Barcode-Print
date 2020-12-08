@@ -7,17 +7,16 @@
       content="width=device-width, initial-scale=1.0 minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"
     />
     <title>CodePrintPage</title>
-    <link rel="stylesheet" href="css/previewpage copy.css" />
+    <link rel="stylesheet" href="css/previewpage.css" />
     <link rel="stylesheet" href="css/print.css" media="print" />
     <link rel="stylesheet" href="css/print.min.css">
     <script src="js/JsBarcode.all.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="js/print.min.js"></script>
-
-   
+    <script src="js/print.min.js"></script>   
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
   </head>
   <body>
-    <div class="print">
+    <div class="print" id="index">
       <!-- //列印模式 -->
       <!-- <style type="text/css">
         @import url("css/print.css") print;
@@ -31,11 +30,11 @@
           <td id="product_name" class="no-line" colspan="3">2</td>
         </tr>
         <tr>
-          <th>機型</th>
+          <th style="letter-spacing: 30px;text-align:right;">機型</th>
           <td id="air_type" class="air-type" colspan="2"></td>
         </tr>
         <tr>
-          <th>電源</th>
+          <th style="letter-spacing: 30px;text-align:right;">電源</th>
           <td class="power_phase" colspan="2">
             <p id="power_phase_volt"><span id="power_phase"> </span> <span id="power_volt"></span><span>V</span> <span>60Hz</span></p>
           </td>
@@ -96,6 +95,8 @@
         </tr>
       </table>
     </div>
+    <input type="button" value="EXPORT" id="btn">
+    
     <!-- <p style="page-break-after: always"></p> -->
     <!-- <div class="print">
       
@@ -174,5 +175,5 @@
     </div> -->
     <!-- <p style="page-break-after: always"></p> -->
   </body>
-  <script src="js/ColdPrint.js"></script>
+  <script src="js/ColdPrint.js"></script>  
 </html>
