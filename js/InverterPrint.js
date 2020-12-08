@@ -1,6 +1,7 @@
 // 第二個表單隱藏
 $(document).ready(function(e){
     $("#inside-table2").hide();
+    getTableData();   
 });
 
 
@@ -47,7 +48,7 @@ $(document).ready(function(e){
     $('.bsmi-box').show();
   };
 
- }getTableData();   
+ }
 
 
 
