@@ -68,7 +68,7 @@ html2canvas(document.body, {
     canvas.msImageSmoothingEnabled = false;
     canvas.imageSmoothingEnabled = false;
     //addImage后两个参数控制添加图片的尺寸，此处将页面高度按照a4纸宽高比列进行压缩
-    pdf.addImage(pageData, "img", 0, 0, canvas.width * 2, canvas.height * 2);
+    pdf.addImage(pageData, "svg", 0, 0, canvas.width * 2, canvas.height * 2);
 
     pdf.save("test.pdf");
   },
