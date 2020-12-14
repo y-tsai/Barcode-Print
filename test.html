@@ -8,10 +8,10 @@
     <title>TestCodePrintPage</title>
     <link rel="stylesheet" href="css/previewpage.css" />
     <link rel="shortcut icon" href="#" />
-  
     <style shopback-extension-v6-2-1="" data-styled-version="4.2.0"></style>
   </head>
   <body>
+    
     <div class="print" id="index">
       <table id="inside-table" class="inside-table">
         <tbody>
@@ -143,6 +143,53 @@
         </tbody>
       </table>
     </div>
-
+    <canvas id="mycanvas" width="300" height="400" style="height: 200;width:150;"></canvas>
   </body>
+  <script>
+    var getPixelRatio = function (context) {
+      var backingStore = context.backingStorePixelRatio ||
+          context.webkitBackingStorePixelRatio ||
+          context.mozBackingStorePixelRatio ||
+          context.msBackingStorePixelRatio ||
+          context.oBackingStorePixelRatio ||
+          context.backingStorePixelRatio || 1;
+      return (window.devicePixelRatio || 1) / backingStore;
+    };
+    
+    let canvas = document.getElementById('myCanvas');
+    let ctx = canvas.getContext('2d');
+    var ratio = getPixelRatio(ctx);
+    canvas.style.width = canvas.width + 'px';
+    canvas.style.height = canvas.height + 'px';
+    
+    canvas.width = canvas.width * ratio;
+    canvas.height = canvas.height * ratio;
+
+    ctx.lineWidth = 5;
+    ctx.strokeRect(0,0, 300 * ratio,400 *ratio);
+
+    ctx.font = "28px Georgia"; //一倍屏下18px字体
+    ctx.fillStyle = "#000";
+    ctx.fillText($('#brand').text(), 100*ratio, 20*ratio);
+  
+    var contentWidth = canvas.width; 
+
+    var contentHeight = canvas.height; 
+
+    var pageHeight = contentWidth / 592.28 * 841.89; 
+    var leftHeight = contentHeight; 
+    var position = 0; 
+
+
+    var imgWidth = 595.28; 
+
+    var imgHeight = 592.28 / contentWidth * contentHeight; 
+
+    var pageData = canvas.toDataURL('image/jpeg', 1.0); 
+    var pdf = new jsPDF("", "px", "a4");
+
+    pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth,imgHeight); 
+    pdf.save('name_hos.pdf'); 
+
+  </script>
 </html>
