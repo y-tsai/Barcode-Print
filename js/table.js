@@ -79,20 +79,6 @@ $btnModalConfirm.on("click", function check_on() {
 
 
 
-
- 
-
-
-  // $("#btn-modal-confirm").on("click", function (e) {
-  //   var barcode_no = $("#barcode_no").val();
-  //   var year = $("#year").val();
-  //   var case_no = $("#case_no").val();
-  //   var ColdPrint = `ColdPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
-  //   window.open(ColdPrint, "_blank");
-  // });
-
-
-
  
 
 

@@ -158,23 +158,8 @@
       <image id="Image" href="http://localhost:5005//upload/bsmi.png" width="30" height="30" x="10" y="308"/>
       
   </svg>
-  <!-- <a id="link" download="barcode.svg">下載</a>
-  <button onclick="reload()">重載</button> -->
+  <a style="display: none;" id="link" download="barcode.svg">下載</a>
   <svg style="display: none;" id="barcode" width="20" height="20" x="10" y="300"></svg>
-
-  <script>
-    setTimeout(() => {
-      reload();
-      // var svg = $('#svg').get(0);
-      // // you should set the format dynamically, write [width, height] instead of 'a4'
-      // var pdf = new jsPDF('p', 'pt', 'a4');
-      // svgElementToPdf(svg, pdf, {
-      //   scale: 72/96, // this is the ratio of px to pt units
-      //   removeInvalid: true // this removes elements that could not be translated to pdf from the source svg
-      // });
-      // pdf.output('datauri'); // use output() to get the jsPDF buffer
-    }, 3000);
-  </script>
   </body>
   <script src="js/ColdPrint.js"></script>
   <script src="js/svgpdf.js"></script>
