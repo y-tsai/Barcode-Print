@@ -74,14 +74,7 @@ function reload() {
     );
   }
 
-  //add xml declaration
-  source = '<?xml version="1.0" standalone="no"?>\r\n' + source;
-  //convert svg source to URI data scheme.
-  var url = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(source);
-  //set url value to a element's href attribute.
-  document.getElementById("link").href = url;
-  //you can download svg file by right click menu.
-  $('#link')[0].click();
+
 };
 
 // var canVas = document.getElementById('svg');
