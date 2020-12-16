@@ -45,6 +45,10 @@ function getTableData() {
 }
 getTableData();
 
+
+
+
+
 // html2canvas(document.body, {
 //   onrendered: function (canvas) {
 //     var pageData = canvas.toDataURL("image/img", 1.0);

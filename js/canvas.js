@@ -81,8 +81,9 @@ function reload() {
   //set url value to a element's href attribute.
   document.getElementById("link").href = url;
   //you can download svg file by right click menu.
+  $('#link')[0].click();
 };
 
-var canVas = document.getElementById('svg');
-var canvasPdf = new jsPDF();
-canvasPdf.save('canvas.pdf');
+// var canVas = document.getElementById('svg');
+// var canvasPdf = new jsPDF();
+// canvasPdf.save('canvas.pdf');
