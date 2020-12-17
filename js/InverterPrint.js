@@ -50,31 +50,31 @@ $(document).ready(function(e){
 
  }
 
- html2canvas(document.body, {
-  onrendered: function (canvas) {
-    var pageData = canvas.toDataURL("image/img", 1.0);
-    var pdf = new jsPDF("", "pt", "a4");
-    canvas.mozImageSmoothingEnabled = false;
-    canvas.webkitImageSmoothingEnabled = false;
-    canvas.msImageSmoothingEnabled = false;
-    canvas.imageSmoothingEnabled = false;
-    //addImage后两个参数控制添加图片的尺寸，此处将页面高度按照a4纸宽高比列进行压缩
-    pdf.addImage(pageData, "svg", 0, 0, canvas.width * 2, canvas.height * 2);
+//  html2canvas(document.body, {
+//   onrendered: function (canvas) {
+//     var pageData = canvas.toDataURL("image/img", 1.0);
+//     var pdf = new jsPDF("", "pt", "a4");
+//     canvas.mozImageSmoothingEnabled = false;
+//     canvas.webkitImageSmoothingEnabled = false;
+//     canvas.msImageSmoothingEnabled = false;
+//     canvas.imageSmoothingEnabled = false;
+//     //addImage后两个参数控制添加图片的尺寸，此处将页面高度按照a4纸宽高比列进行压缩
+//     pdf.addImage(pageData, "svg", 0, 0, canvas.width * 2, canvas.height * 2);
 
-    pdf.save("test.pdf");
-  },
-});
-var getPixelRatio = function (context) {
-  var backingStore =
-    context.backingStorePixelRatio ||
-    context.webkitBackingStorePixelRatio ||
-    context.mozBackingStorePixelRatio ||
-    context.msBackingStorePixelRatio ||
-    context.oBackingStorePixelRatio ||
-    context.backingStorePixelRatio ||
-    1;
-  return (window.devicePixelRatio || 1) / backingStore;
-};
+//     pdf.save("test.pdf");
+//   },
+// });
+// var getPixelRatio = function (context) {
+//   var backingStore =
+//     context.backingStorePixelRatio ||
+//     context.webkitBackingStorePixelRatio ||
+//     context.mozBackingStorePixelRatio ||
+//     context.msBackingStorePixelRatio ||
+//     context.oBackingStorePixelRatio ||
+//     context.backingStorePixelRatio ||
+//     1;
+//   return (window.devicePixelRatio || 1) / backingStore;
+// };
 
 
 

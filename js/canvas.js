@@ -5,6 +5,7 @@ $(document).ready(() => {
   $("#power_phaseText").get(0).textContent =
     $("#power_phase").text() + " " + $("#power_volt").text() + "V 60Hz";
   $("#capacity_coolText").get(0).textContent = $("#capacity_cool").text();
+  $("#capacity_heatText").get(0).textContent = $("#capacity_heat").text();
   $("#air_volumeText").get(0).textContent = $("#air_volume").text();
   $("#air_kgText").get(0).textContent = $("#air_kg").text() + " kg";
   $("#air_mergeText").get(0).textContent = "I類";
@@ -17,6 +18,7 @@ $(document).ready(() => {
   $("#sticker_noText").get(0).textContent = $("#sticker_no").text();
   $("#ro-hsText").get(0).textContent = "Rohs";
   $("#case_noText").get(0).textContent = $("#case_no").text();
+
   var getUrlString = location.href;
   var url = new URL(getUrlString);
   var barcodeNo = url.searchParams.get("barcode_no");
