@@ -2,8 +2,7 @@ $(document).ready(() => {
   $("#brandText").get(0).textContent = $("#brand").text();
   $("#product_nameText").get(0).textContent = $("#product_name").text();
   $("#air_typeText").get(0).textContent = $("#air_type").text();
-  $("#power_phaseText").get(0).textContent =
-    $("#power_phase").text() + " " + $("#power_volt").text() + "V 60Hz";
+  $("#power_phaseText").get(0).textContent = $("#power_phase").text() + " " + $("#power_volt").text() + "V 60Hz";
   $("#capacity_coolText").get(0).textContent = $("#capacity_cool").text();
   $("#capacity_heatText").get(0).textContent = $("#capacity_heat").text();
   $("#air_volumeText").get(0).textContent = $("#air_volume").text();
@@ -11,8 +10,7 @@ $(document).ready(() => {
   $("#air_mergeText").get(0).textContent = "I類";
   $("#air_sntText").get(0).textContent = "T1";
   $("#air_ipText").get(0).textContent = "IPX0";
-  $("#air_countryText").get(0).textContent =
-    "中華民國 / " + $("#year").text() + " 年";
+  $("#air_countryText").get(0).textContent = "中華民國 / " + $("#year").text() + " 年";
   $("#company_nameText").get(0).textContent = $("#company_name").text();
   $("#company_addressText").get(0).textContent = $("#company_address").text();
   $("#sticker_noText").get(0).textContent = $("#sticker_no").text();

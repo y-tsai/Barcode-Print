@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0 minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"
     />
-    <title>CodePrintPageTest</title>
+    <title>CodePrintPage</title>
     <link rel="stylesheet" href="css/previewpage.css" />
     <script src="js/JsBarcode.all.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -17,12 +17,7 @@
   </head>
   <body>
     <div class="print" id="index">
-      <!-- //列印模式 -->
-      <!-- <style type="text/css">
-        @import url("css/print.css") print;
-      </style> -->
-
-      <table id="inside-table" class="inside-table">
+    <table id="inside-table" class="inside-table">
         <tr>
           <td id="brand" class="no-line" colspan="3"></td>
         </tr>
@@ -37,9 +32,7 @@
           <th style="letter-spacing: 30px; text-align: right">電源</th>
           <td class="power_phase" colspan="2">
             <p id="power_phase_volt">
-              <span id="power_phase"> </span> <span id="power_volt"></span
-              ><span>V</span> <span>60Hz</span>
-            </p>
+              <span id="power_phase"> </span> <span id="power_volt"></span><span>V</span> <span>60Hz</span></p>
           </td>
         </tr>
         <tr>
@@ -82,11 +75,7 @@
             <div class="bottom-list">
               <div class="bsmi-box">
                 <div id="bsmi_sticker" class="bsmi">
-                  <img
-                    src="/upload/bsmi.png"
-                    alt="BSMI-Sticker"
-                    width="35"
-                  />
+                  <img src="/upload/bsmi.png" alt="BSMI-Sticker" width="35" />
                 </div>
                 <div id="sticker_no" class="sticker"></div>
                 <div id="ro_hs" class="ro-hs">RoHS</div>
