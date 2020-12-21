@@ -1,21 +1,25 @@
 var $barcodeModal = $("#barcode-modal");
-var $inDoorTable = $("#indoor-table");
+var $printTable = $("#printTable");
 var $checkForm = $("#check-form");
 var $btnModalConfirm = $("#btn-modal-confirm");
 
-$(function () {
-  $inDoorTable.bootstrapTable("hideColumn", [
-    "company_name",
-    "company_tel",
-    "company_address",
-    "capacity_heat",
-    "air_kg",
-    "air_width",
-    "air_height",
-    "air_depth",
-  ]);
-});
+//hideColumn
+// $(function () {
+//   $printTable.bootstrapTable("hideColumn", [
+//     "power_volt",
+//     "air_width",
+//     "air_height",
+//     "air_depth",
+//     "air_kg",
+//     "company_name",
+//     "company_tel",
+//     "company_address",
+//     "capacity_heat",
+//   ]);
+// });
 
+let myList
+//getData
 function ajaxRequest(params) {
   var url =
     "https://backend.jin-ting.com.tw/api/items/product?fields=*.*&filter[product_spec.product_name][neq]=";
@@ -43,12 +47,14 @@ function ajaxRequest(params) {
         product_class: product.product_spec.product_class,
       };
     });
+    myList = list;
     params.success(list);
   });
 }
 
+// modal
 let row = undefined;
-$inDoorTable.on("click-row.bs.table", function (e, rows) {
+$printTable.on("click-row.bs.table", function (e, rows) {
   $barcodeModal.modal("show");
   document.getElementById("brand").innerText = rows.brand;
   document.getElementById("air_type").innerText = rows.air_type;
@@ -77,8 +83,71 @@ $btnModalConfirm.on("click", function check_on() {
   
 });
 
+// navbar
+$('.nav-link').on('click', function () {
+  let table = document.getElementById('printTable');
+  let tr = table.getElementsByTagName('tr');
 
+  let filter;
 
- 
+  switch($(this).text()) {
+    case 'Indoor':
+      filter = '內機';
+        $printTable.bootstrapTable("showColumn", [
+          "product_class",
+          "brand",
+          "product_name",
+          "air_type",
+          "capacity_cool",
+          "sticker_no",
+          "case_no",
+        ]);
+        $printTable.bootstrapTable('hideColumn', [
+          "startcurrent",
+          "power_phase",
+          "refrigerant",
+          "csPP",
+          "air_width",
+          "air_height",
+          "air_depth",
+          "air_kg",
+          "company_name",
+          "company_tel",
+          "company_address",
+          "power_volt",
+        ]);
+      break;
+    default:
+      filter = '外機';
+      $printTable.bootstrapTable("showColumn", [
+        "product_class",
+        "brand",
+        "product_name",
+        "air_type",
+        "startcurrent",
+        "refrigerant",
+        "sticker_no",
+        "case_no",
+      ]);
+      $printTable.bootstrapTable('hideColumn', [
+        "power_phase",
+        "power_volt",
+        "capacity_cool",
+        "capacity_heat",
+        "air_width",
+        "air_height",
+        "air_depth",
+        "air_kg",
+        "company_name",
+        "company_tel",
+        "company_address",
+      ]);
+      break;
+  }
 
+  let tempList = myList.filter(x=>x.product_name.indexOf(filter) != -1);
+
+  $('#printTable').bootstrapTable('load', tempList);
+
+});
 
