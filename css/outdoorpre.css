@@ -1,20 +1,70 @@
-.outside_table{
+
+
+.outside-table{
     width: 220px;
     height: 320px;
     border: 2px solid;
     border-collapse: collapse;
 }
-.outside_table th{
+.outside-table th{
     font-size: 12px;
     font-weight: 800;
     text-align: center;
     border: 2px solid;
     border-collapse: collapse;
 }
-.outside_table td{
+.outside-table td{
     border: 2px solid;
     border-collapse: collapse;
     text-align: center;
     vertical-align: middle;
 }
-
+.outside-table .no-line {
+    border-width: 0px 1px;
+    font-family: 標楷體;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+  }
+  
+  
+  .bottom-list {
+    width: 220px;
+    height: 80px;
+    margin-left: -2px;
+  }
+  
+  .bsmi {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 12px;
+  }
+  .sticker {
+    position: absolute;
+    font-size: 14px;
+    margin-left: 55px;
+    margin-top: 10px;
+  }
+  
+  .ro-hs {
+    position: absolute;
+    font-size: 12px;
+    margin-left: 55px;
+    margin-top: 33px;
+  }
+  
+  .case-no {
+    position: absolute;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+  
+  .barcode {
+    position: absolute;
+    left: 155px;
+    width: 115px;
+    height: 85px;
+  }

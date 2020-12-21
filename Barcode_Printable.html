@@ -72,7 +72,7 @@
   </div>
     <div
       class="modal fade"
-      id="barcode-modal"
+      id="indoor-modal"
       tabindex="-1"
       role="dialog"
       aria-labelledby="exampleModalCenterTitle"
@@ -89,30 +89,30 @@
             </button>
           </div>
           <div class="modal-body">
-            <form id="check-form">
-             <label>Class ： <p id="product_class"></p></label>
+            <form id="incheck-form">
+             <label>Class ： <p id="inproduct_class"></p></label>
              <br> 
-            <label>Brand ： <p id="brand"></p></label>
+            <label>Brand ： <p id="inbrand"></p></label>
             <br> 
-            <label>機型 ： <p id="air_type"></p></label>
+            <label>機型 ： <p id="inair_type"></p></label>
             <br> 
-            <label>電源 ： <p id="power_volt"></p></label>
+            <label>電源 ： <p id="inpower_volt"></p></label>
             <br> 
             <label>
               額定冷氣能力(kw) ：
-              <p id="capacity_cool"></p>
+              <p id="incapacity_cool"></p>
             </label>
             <br> 
-            <label>*年份 ： <input required="required" type="text" id="year" /></label> 
-            <label>*流水號 ： <input type="text" id="barcode_no" /></label>
-            <label>機殼編號 ： <input type="text" id="case_no" /></label>
+            <label>*年份 ： <input required="required" type="text" id="inyear" /></label> 
+            <label>*流水號 ： <input type="text" id="inbarcode_no" /></label>
+            <label>機殼編號 ： <input type="text" id="incase_no" /></label>
           </form>
           </div>
           <div class="modal-footer">
-            <button id="btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">
+            <button id="inbtn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">
               關閉
             </button>
-            <button id="btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
+            <button id="inbtn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
           </div>
           
         </div>

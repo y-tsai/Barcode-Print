@@ -1,7 +1,7 @@
-var $barcodeModal = $("#barcode-modal");
+var $indoorModal = $("#indoor-modal");
 var $printTable = $("#printTable");
 var $checkForm = $("#check-form");
-var $btnModalConfirm = $("#btn-modal-confirm");
+var $inbtnModalConfirm = $("#inbtn-modal-confirm");
 
 //hideColumn
 // $(function () {
@@ -55,22 +55,22 @@ function ajaxRequest(params) {
 // modal
 let row = undefined;
 $printTable.on("click-row.bs.table", function (e, rows) {
-  $barcodeModal.modal("show");
-  document.getElementById("brand").innerText = rows.brand;
-  document.getElementById("air_type").innerText = rows.air_type;
-  document.getElementById("power_volt").innerText = rows.power_volt;
-  document.getElementById("capacity_cool").innerText = rows.capacity_cool;
-  document.getElementById("case_no").value = rows.case_no;
-  document.getElementById("product_class").innerText = rows.product_class;
+  $indoorModal.modal("show");
+  document.getElementById("inbrand").innerText = rows.brand;
+  document.getElementById("inair_type").innerText = rows.air_type;
+  document.getElementById("inpower_volt").innerText = rows.power_volt;
+  document.getElementById("incapacity_cool").innerText = rows.capacity_cool;
+  document.getElementById("incase_no").value = rows.case_no;
+  document.getElementById("inproduct_class").innerText = rows.product_class;
   row = rows
 });
 
-$btnModalConfirm.on("click", function check_on() {
+$inbtnModalConfirm.on("click", function check_on() {
   var cla = row.product_class;
   // var getClass = $barcodeModal.bootstrapTable('getSelections');
-  var barcode_no = $("#barcode_no").val();
-  var year = $("#year").val();
-  var case_no = $("#case_no").val();
+  var barcode_no = $("#inbarcode_no").val();
+  var year = $("#inyear").val();
+  var case_no = $("#incase_no").val();
 
   var InverterPrint = `InverterPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
   var ColdPrint = `ColdPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;

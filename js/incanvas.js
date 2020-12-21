@@ -17,6 +17,17 @@ $(document).ready(() => {
   $("#ro-hsText").get(0).textContent = "Rohs";
   $("#case_noText").get(0).textContent = $("#case_no").text();
 
+  var stickerNO = $("#sticker_noText").text();
+  if (stickerNO === "null"){
+  $("#sticker_noText").hide();
+  $("#ro-hsText").hide();
+  $("#Image").hide();
+  }else{
+  $("#sticker_noText").show();
+  $("#ro-hsText").show();
+  $("#Image").show();
+  };
+
   var getUrlString = location.href;
   var url = new URL(getUrlString);
   var barcodeNo = url.searchParams.get("barcode_no");
@@ -30,7 +41,11 @@ $(document).ready(() => {
     displayValue: true,
   });
   $("#svg").append($("#barcode").children()[1]);
+
+
 });
+
+
 
 function reload() {
   
