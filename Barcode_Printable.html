@@ -50,15 +50,19 @@
           <th data-field="product_name" data-filter-control="select">Product Name</th>
           <th data-field="air_type" data-filter-control="input">Air Type</th>
           <th data-field="power_phase" data-filter-control="select">電源</th>
-          <th data-field="startcurrent">啟動電流</th>
+          <th data-field="start_current">啟動電流</th>
           <th data-field="power_volt">V</th>
           <th data-field="capacity_cool">額定冷氣能力(kw)</th>
           <th data-field="capacity_heat">額定暖氣能力(kw)</th>
+          <th data-field="operating_current">額定運轉電流</th>
+          <th data-field="energy_consumption">額定消耗功率</th>
           <th data-field="refrigerant">冷媒填充量</th>
           <th data-field="csPP">CSPP</th>
           <th data-field="air_width">寬(mm)</th>
           <th data-field="air_height">高(mm)</th>
           <th data-field="air_depth">深(mm)</th>
+          <th data-field="psig_h">設計壓力(H)</th>
+          <th data-field="psig_l">設計壓力(L)</th>
           <th data-field="air_kg">重量(kg)</th>
           <th data-field="company_name">Company Name</th>
           <th data-field="company_tel">Company Phone</th>
@@ -89,30 +93,84 @@
             </button>
           </div>
           <div class="modal-body">
-            <form id="incheck-form">
-             <label>Class ： <p id="inproduct_class"></p></label>
+            <form id="inCheck-form">
+             <label>Class ： <p id="inProduct_class"></p></label>
              <br> 
-            <label>Brand ： <p id="inbrand"></p></label>
+            <label>Brand ： <p id="inBrand"></p></label>
             <br> 
-            <label>機型 ： <p id="inair_type"></p></label>
+            <label>機型 ： <p id="inAir_type"></p></label>
             <br> 
-            <label>電源 ： <p id="inpower_volt"></p></label>
+            <label>電源 ： <p id="inPower_volt"></p></label>
             <br> 
             <label>
               額定冷氣能力(kw) ：
-              <p id="incapacity_cool"></p>
+              <p id="inCapacity_cool"></p>
             </label>
             <br> 
-            <label>*年份 ： <input required="required" type="text" id="inyear" /></label> 
-            <label>*流水號 ： <input type="text" id="inbarcode_no" /></label>
-            <label>機殼編號 ： <input type="text" id="incase_no" /></label>
+            <label>*年份 ： <input required="required" type="text" id="inYear" /></label> 
+            <label>*流水號 ： <input type="text" id="inBarcode_no" /></label>
+            <label>機殼編號 ： <input type="text" id="inCase_no" /></label>
           </form>
           </div>
           <div class="modal-footer">
-            <button id="inbtn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">
+            <button id="in_btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">
               關閉
             </button>
-            <button id="inbtn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
+            <button id="in_btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="outdoor-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalCenterTitle">
+              列印確認
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="outCheck-form">
+             <label>Class ： <p id="outProduct_class"></p></label>
+             <br> 
+            <label>Brand ： <p id="outBrand"></p></label>
+            <br> 
+            <label>機型 ： <p id="outAir_type"></p></label>
+            <br> 
+            <label>電源 ： <p id="outPower_volt"></p></label>
+            <br> 
+            <label>
+              額定運轉電流(A) ：
+              <p id="outOperating_current"></p>
+            </label>
+            <br> 
+            <label>
+              CSPP(冷氣季節性能因數)：
+              <p id="outCspp"></p>
+            </label>
+            <br> 
+            <label>*年份 ： <input required="required" type="text" id="outYear" /></label> 
+            <label>*流水號 ： <input type="text" id="outBarcode_no" /></label>
+            <label>機殼編號 ： <input type="text" id="outCase_no" /></label>
+          </form>
+          </div>
+          <div class="modal-footer">
+            <button id="out_btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">
+              關閉
+            </button>
+            <button id="out_btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
           </div>
           
         </div>

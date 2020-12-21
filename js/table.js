@@ -1,7 +1,10 @@
 var $indoorModal = $("#indoor-modal");
+var $outdoorModal = $("#outdoor-modal");
 var $printTable = $("#printTable");
-var $checkForm = $("#check-form");
-var $inbtnModalConfirm = $("#inbtn-modal-confirm");
+var $inCheckForm = $("#inCheck-form");
+var $outCheckForm = $("#outCheck-form");
+var $inBtnModalConfirm = $("#in_btn-modal-confirm");
+var $outBtnModalConfirm = $("#out_btn-modal-confirm");
 
 //hideColumn
 // $(function () {
@@ -45,6 +48,13 @@ function ajaxRequest(params) {
         sticker_no: product.product_spec.sticker_no,
         case_no: product.product_spec.case_no,
         product_class: product.product_spec.product_class,
+        start_current: product.product_spec.start_current,
+        csPP:product.product_spec.cspp,
+        energy_consumption:product.product_spec.energy_consumption,
+        refrigerant:product.product_spec.refrigerant,
+        psig_h: product.product_spec.psig_h,
+        psig_l: product.product_spec.psig_l,
+        operating_current: product.product_spec.operating_current,
       };
     });
     myList = list;
@@ -54,34 +64,78 @@ function ajaxRequest(params) {
 
 // modal
 let row = undefined;
+
 $printTable.on("click-row.bs.table", function (e, rows) {
   $indoorModal.modal("show");
-  document.getElementById("inbrand").innerText = rows.brand;
-  document.getElementById("inair_type").innerText = rows.air_type;
-  document.getElementById("inpower_volt").innerText = rows.power_volt;
-  document.getElementById("incapacity_cool").innerText = rows.capacity_cool;
-  document.getElementById("incase_no").value = rows.case_no;
-  document.getElementById("inproduct_class").innerText = rows.product_class;
+  document.getElementById("inBrand").innerText = rows.brand;
+  document.getElementById("inAir_type").innerText = rows.air_type;
+  document.getElementById("inPower_volt").innerText = rows.power_volt;
+  document.getElementById("inCapacity_cool").innerText = rows.capacity_cool;
+  document.getElementById("inCase_no").value = rows.case_no;
+  document.getElementById("inProduct_class").innerText = rows.product_class;
   row = rows
 });
 
-$inbtnModalConfirm.on("click", function check_on() {
+// let row = undefined;
+// $printTable.on("click-row.bs.table", function (e, rows) {
+//   var proClass = row.product_class;
+
+// if (proClass !== "內機"){
+//   $indoorModal.modal("show");
+//   document.getElementById("inBrand").innerText = rows.brand;
+//   document.getElementById("inAir_type").innerText = rows.air_type;
+//   document.getElementById("inPower_volt").innerText = rows.power_volt;
+//   document.getElementById("inCapacity_cool").innerText = rows.capacity_cool;
+//   document.getElementById("inCase_no").value = rows.case_no;
+//   document.getElementById("inProduct_class").innerText = rows.product_class;
+//   row = rows
+// }else{
+//   $outdoorModal.modal("show");
+//   document.getElementById("outBrand").innerText = rows.brand;
+//   document.getElementById("outAir_type").innerText = rows.air_type;
+//   document.getElementById("outPower_volt").innerText = rows.power_volt;
+//   document.getElementById("outOperating_current").innerText = rows.operating_current;
+//   document.getElementById("outCspp").innerText = rows.csPP;
+//   document.getElementById("outCase_no").value = rows.case_no;
+//   document.getElementById("outProduct_class").innerText = rows.product_class;
+//   row = rows
+// };
+// });
+
+$inBtnModalConfirm.on("click", function check_on() {
   var cla = row.product_class;
-  // var getClass = $barcodeModal.bootstrapTable('getSelections');
-  var barcode_no = $("#inbarcode_no").val();
-  var year = $("#inyear").val();
-  var case_no = $("#incase_no").val();
+  var barcode_no = $("#inBarcode_no").val();
+  var year = $("#inYear").val();
+  var case_no = $("#inCase_no").val();
 
   var InverterPrint = `InverterPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
   var ColdPrint = `ColdPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
   
-  if (cla === "冷暖") {
+  if (cla === "冷暖內機") {
     window.open(InverterPrint, "_blank");
   }else{
     window.open(ColdPrint, "_blank");
   };
   
 });
+
+//outdoor modal check btn 
+// $outBtnModalConfirm.on("click", function check_on() {
+//   var cla = row.product_class;
+//   var barcode_no = $("#outBarcode_no").val();
+//   var year = $("#outYear").val();
+//   var case_no = $("#outCase_no").val();
+
+//   var InverterOutdoor = `InverterOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+//   var ColdOutdoor = `ColdOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+  
+//   if (cla === "冷暖外機") {
+//     window.open(InverterOutdoor, "_blank");
+//   }else{
+//     window.open(ColdOutdoor, "_blank");
+//   };
+  
+// });
 
 // navbar
 $('.nav-link').on('click', function () {
@@ -103,7 +157,7 @@ $('.nav-link').on('click', function () {
           "case_no",
         ]);
         $printTable.bootstrapTable('hideColumn', [
-          "startcurrent",
+          "start_current",
           "power_phase",
           "refrigerant",
           "csPP",
@@ -115,6 +169,10 @@ $('.nav-link').on('click', function () {
           "company_tel",
           "company_address",
           "power_volt",
+          "operating_current",
+          "energy_consumption",
+          "psig_h",
+          "psig_l",          
         ]);
       break;
     default:
@@ -124,7 +182,7 @@ $('.nav-link').on('click', function () {
         "brand",
         "product_name",
         "air_type",
-        "startcurrent",
+        "start_current",
         "refrigerant",
         "sticker_no",
         "case_no",
@@ -141,6 +199,10 @@ $('.nav-link').on('click', function () {
         "company_name",
         "company_tel",
         "company_address",
+        "operating_current",
+        "energy_consumption",
+        "psig_h",
+        "psig_l", 
       ]);
       break;
   }
