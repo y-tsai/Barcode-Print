@@ -44,20 +44,20 @@
   .bsmi {
     position: absolute;
     margin-top: 6px;
-    margin-left: 12px;
+    margin-left: 8px;
   }
   .sticker {
     position: absolute;
-    font-size: 14px;
-    margin-left: 55px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 45px;
+    margin-top: 5px;
   }
   
   .ro-hs {
     position: absolute;
-    font-size: 12px;
-    margin-left: 55px;
-    margin-top: 33px;
+    font-size: 10px;
+    margin-left: 45px;
+    margin-top: 30px;
   }
   
   .case-no {
@@ -66,12 +66,13 @@
     font-size: 14px;
     font-weight: 700;
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 40px;
   }
   
   .barcode {
     position: absolute;
-    left: 155px;
-    width: 115px;
-    height: 85px;
+    margin-top: 8px;
+    left: 130px;
+    width: 90px;
+    height: 70px;
   }

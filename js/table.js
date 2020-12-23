@@ -47,6 +47,84 @@ function ajaxRequest(params) {
   });
 };
 
+// navbar
+$('.nav-link').on('click', function () {
+  let table = document.getElementById('printTable');
+  let tr = table.getElementsByTagName('tr');
+  let td = table.getElementsByTagName('td');
+
+  let filter;
+
+  switch($(this).text()) {
+    case 'Indoor':
+      filter = '內機';
+        $printTable.bootstrapTable("showColumn", [
+          "product_class",
+          "brand",
+          "product_name",
+          "air_type",
+          "capacity_cool",
+          "sticker_no",
+          "case_no",
+        ]);
+        $printTable.bootstrapTable('hideColumn', [
+          "start_current",
+          "power_phase",
+          "refrigerant",
+          "csppNo",
+          "air_width",
+          "air_height",
+          "air_depth",
+          "air_kg",
+          "company_name",
+          "company_tel",
+          "company_address",
+          "power_volt",
+          "operating_current",
+          "energy_consumption",
+          "psig_h",
+          "psig_l",          
+        ]);
+      break;
+    default:
+      filter = '外機';
+      $printTable.bootstrapTable("showColumn", [
+        "product_class",
+        "brand",
+        "product_name",
+        "air_type",
+        "start_current",
+        "operating_current",
+        "refrigerant",
+        "sticker_no",
+        "case_no",
+      ]);
+      $printTable.bootstrapTable('hideColumn', [
+        "power_phase",
+        "power_volt",
+        "capacity_cool",
+        "capacity_heat",
+        "air_width",
+        "air_height",
+        "air_depth",
+        "air_kg",
+        "company_name",
+        "company_tel",
+        "company_address",
+        "energy_consumption",
+        "csppNo",
+        "psig_h",
+        "psig_l", 
+      ]);
+      break;
+  }
+
+  let tempList = myList.filter(x=>x.product_name.indexOf(filter) != -1);
+
+  $('#printTable').bootstrapTable('load', tempList);
+
+});
+
 let row = undefined;
 $printTable.on("click-row.bs.table", function (e, rows) {
   var proClass = rows.product_class;
@@ -99,10 +177,10 @@ $outBtnModalConfirm.on("click", function check_on() {
   var barcode_no = $("#outBarcode_no").val();
   var year = $("#outYear").val();
   var case_no = $("#outCase_no").val();
-  var csppNo = $("#outCsppNo").val();
+  
 
-  var InverterOutdoor = `InverterOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operating_current=${row.operating_current}&energy_consumption=${row.energy_consumption}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&csppNo=${csppNo}`;
-  var ColdOutdoor = `ColdOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operating_current=${row.operating_current}&energy_consumption=${row.energy_consumption}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&csppNo=${csppNo}`;
+  var InverterOutdoor = `InverterOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operating_current=${row.operating_current}&energy_consumption=${row.energy_consumption}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&csppNo=${row.csppNo}`;
+  var ColdOutdoor = `ColdOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operating_current=${row.operating_current}&energy_consumption=${row.energy_consumption}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&csppNo=${row.csppNo}`;
   
   
   if (outCla === "冷暖外機") {
@@ -113,80 +191,5 @@ $outBtnModalConfirm.on("click", function check_on() {
   
 });
 
-// navbar
-$('.nav-link').on('click', function () {
-  let table = document.getElementById('printTable');
-  let tr = table.getElementsByTagName('tr');
 
-  let filter;
-
-  switch($(this).text()) {
-    case 'Indoor':
-      filter = '內機';
-        $printTable.bootstrapTable("showColumn", [
-          "product_class",
-          "brand",
-          "product_name",
-          "air_type",
-          "capacity_cool",
-          "sticker_no",
-          "case_no",
-        ]);
-        $printTable.bootstrapTable('hideColumn', [
-          "start_current",
-          "power_phase",
-          "refrigerant",
-          "csPP",
-          "air_width",
-          "air_height",
-          "air_depth",
-          "air_kg",
-          "company_name",
-          "company_tel",
-          "company_address",
-          "power_volt",
-          "operating_current",
-          "energy_consumption",
-          "psig_h",
-          "psig_l",          
-        ]);
-      break;
-    default:
-      filter = '外機';
-      $printTable.bootstrapTable("showColumn", [
-        "product_class",
-        "brand",
-        "product_name",
-        "air_type",
-        "start_current",
-        "operating_current",
-        "refrigerant",
-        "sticker_no",
-        "case_no",
-      ]);
-      $printTable.bootstrapTable('hideColumn', [
-        "power_phase",
-        "power_volt",
-        "capacity_cool",
-        "capacity_heat",
-        "air_width",
-        "air_height",
-        "air_depth",
-        "air_kg",
-        "company_name",
-        "company_tel",
-        "company_address",
-        "energy_consumption",
-        
-        "psig_h",
-        "psig_l", 
-      ]);
-      break;
-  }
-
-  let tempList = myList.filter(x=>x.product_name.indexOf(filter) != -1);
-
-  $('#printTable').bootstrapTable('load', tempList);
-
-});
 
