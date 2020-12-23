@@ -34,12 +34,14 @@ function ajaxRequest(params) {
         case_no: product.product_spec.case_no,
         product_class: product.product_spec.product_class,
         start_current: product.product_spec.start_current,
-        csppNo:product.product_spec.cspp,
-        energy_consumption:product.product_spec.energy_consumption,
+        cspfNo:product.product_spec.cspf,
+        consumptionCold:product.product_spec.consumptioncold,
+        consumptionHeat:product.product_spec.consumptionheat,
         refrigerant:product.product_spec.refrigerant,
         psig_h: product.product_spec.psig_h,
         psig_l: product.product_spec.psig_l,
-        operating_current: product.product_spec.operating_current,
+        operatingCold: product.product_spec.operatingcold,
+        operatingHeat: product.product_spec.operatingheat,
       };
     });
     myList = list;
@@ -63,7 +65,7 @@ $('.nav-link').on('click', function () {
           "brand",
           "product_name",
           "air_type",
-          "capacity_cool",
+          "capacity_cold",
           "sticker_no",
           "case_no",
         ]);
@@ -71,7 +73,7 @@ $('.nav-link').on('click', function () {
           "start_current",
           "power_phase",
           "refrigerant",
-          "csppNo",
+          "cspfNo",
           "air_width",
           "air_height",
           "air_depth",
@@ -80,10 +82,13 @@ $('.nav-link').on('click', function () {
           "company_tel",
           "company_address",
           "power_volt",
-          "operating_current",
-          "energy_consumption",
           "psig_h",
-          "psig_l",          
+          "psig_l",    
+          "operatingCold",
+          "operatingHeat",
+          "consumptionCold",
+          "consumptionHeat",     
+          "capacity_heat",  
         ]);
       break;
     default:
@@ -94,10 +99,10 @@ $('.nav-link').on('click', function () {
         "product_name",
         "air_type",
         "start_current",
-        "operating_current",
-        "refrigerant",
         "sticker_no",
         "case_no",
+        "operatingCold",
+        "consumptionCold",
       ]);
       $printTable.bootstrapTable('hideColumn', [
         "power_phase",
@@ -111,10 +116,12 @@ $('.nav-link').on('click', function () {
         "company_name",
         "company_tel",
         "company_address",
-        "energy_consumption",
-        "csppNo",
+        "cspfNo",
         "psig_h",
         "psig_l", 
+        "operatingHeat",
+        "consumptionHeat",   
+        "refrigerant",
       ]);
       break;
   }
@@ -143,8 +150,8 @@ if (proClass.indexOf("內機") != -1){
   document.getElementById("outBrand").innerText = rows.brand;
   document.getElementById("outAir_type").innerText = rows.air_type;
   document.getElementById("outPower_volt").innerText = rows.power_volt;
-  document.getElementById("outOperating_current").innerText = rows.operating_current;
-  document.getElementById("outCsppNo").innerText = rows.csppNo;
+  document.getElementById("outOperatingCold").innerText = rows.operatingCold;
+  document.getElementById("outCspfNo").innerText = rows.cspfNo;
   document.getElementById("outCase_no").value = rows.case_no;
   document.getElementById("outProduct_class").innerText = rows.product_class;
   document.getElementById("outStart_current").innerText = rows.start_current;
@@ -179,8 +186,8 @@ $outBtnModalConfirm.on("click", function check_on() {
   var case_no = $("#outCase_no").val();
   
 
-  var InverterOutdoor = `InverterOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operating_current=${row.operating_current}&energy_consumption=${row.energy_consumption}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&csppNo=${row.csppNo}`;
-  var ColdOutdoor = `ColdOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operating_current=${row.operating_current}&energy_consumption=${row.energy_consumption}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&csppNo=${row.csppNo}`;
+  var InverterOutdoor = `InverterOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&operatingHeat=${row.operatingHeat}&consumptionHeat=${row.consumptionHeat}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspfNo}`;
+  var ColdOutdoor = `ColdOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cool=${row.capacity_cool}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspfNo}`;
   
   
   if (outCla === "冷暖外機") {

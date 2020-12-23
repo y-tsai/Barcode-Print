@@ -54,10 +54,12 @@
           <th data-field="power_volt">V</th>
           <th data-field="capacity_cool">額定冷氣能力(kw)</th>
           <th data-field="capacity_heat">額定暖氣能力(kw)</th>
-          <th data-field="operating_current">額定運轉電流</th>
-          <th data-field="energy_consumption">額定消耗功率</th>
+          <th data-field="operatingCold">額定冷氣運轉電流</th>
+          <th data-field="operatingHeat">額定暖氣運轉電流</th>
+          <th data-field="consumptionCold">額定冷氣消耗功率</th>
+          <th data-field="consumptionHeat">額定暖氣消耗功率</th>
           <th data-field="refrigerant">冷媒填充量</th>
-          <th data-field="csppNo">CSPP</th>
+          <th data-field="cspfNo">CSPF</th>
           <th data-field="air_width">寬(mm)</th>
           <th data-field="air_height">高(mm)</th>
           <th data-field="air_depth">深(mm)</th>
@@ -151,17 +153,16 @@
             <br> 
             <label>電源 ： <p id="outPower_volt"></p></label>
             <br> 
-            <br> 
             <label>啟動電流 ： <p id="outStart_current"></p></label>
             <br> 
             <label>
               額定運轉電流(A) ：
-              <p id="outOperating_current"></p>
+              <p id="outOperatingCold"></p>
             </label>
             <br> 
             <label>
-              CSPP(冷氣季節性能因數)：
-              <p id="outCsppNo"></p>
+              CSPF(冷氣季節性能因數)：
+              <p id="outCspfNo"></p>
             </label>
             <br> 
             <label>*年份 ： <input required="required" type="text" id="outYear" /></label> 

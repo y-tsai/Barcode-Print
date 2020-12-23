@@ -3,30 +3,37 @@ $(document).ready(() => {
   $("#product_nameText").get(0).textContent = $("#product_name").text();
   $("#air_typeText").get(0).textContent = $("#air_type").text();
   $("#power_phaseText").get(0).textContent = $("#power_phase").text() + " " + $("#power_volt").text() + "V 60Hz";
-  $("#capacity_coolText").get(0).textContent = $("#capacity_cool").text();
-  $("#capacity_heatText").get(0).textContent = $("#capacity_heat").text();
+  $("#capacity_coolText").get(0).textContent = "冷 " +$("#capacity_cool").text();
+  $("#capacity_heatText").get(0).textContent = "暖 " +$("#capacity_heat").text();
+  $("#start_currentText").get(0).textContent = $("#start_current").text(); 
+  $("#operatingColdText").get(0).textContent = "冷 " +$("#operatingCold").text(); 
+  $("#operatingHeatText").get(0).textContent = "暖 " +$("#operatingHeat").text(); 
+  $("#consumptionColdText").get(0).textContent = "冷 " +$("#consumptionCold").text(); 
+  $("#consumptionHeatText").get(0).textContent = "暖 " +$("#consumptionHeat").text(); 
+  $("#cspfNoText").get(0).textContent = $("#cspfNo").text(); 
+  $("#refrigerantText").get(0).textContent = $("#refrigerant").text(); 
+  $("#psigText").get(0).textContent = "H" + $("#psig_h").text()+ " / L " + $("#psig_l").text() ; 
+  $("#outdoor_kgText").get(0).textContent = $("#outdoor_kg").text() + " kg";
+  $("#air_sntIpText").get(0).textContent = $("#air_sntIp").text(); 
+  $("#antielectricText").get(0).textContent = $("#antielectric").text(); 
   $("#air_volumeText").get(0).textContent = $("#air_volume").text();
-  $("#air_kgText").get(0).textContent = $("#air_kg").text() + " kg";
-  $("#air_mergeText").get(0).textContent = "I類";
-  $("#air_sntText").get(0).textContent = "T1";
-  $("#air_ipText").get(0).textContent = "IPX0";
   $("#air_countryText").get(0).textContent = "中華民國 / " + $("#year").text() + " 年";
-  $("#company_nameText").get(0).textContent = $("#company_name").text();
-  $("#company_addressText").get(0).textContent = $("#company_address").text();
   $("#sticker_noText").get(0).textContent = $("#sticker_no").text();
   $("#ro-hsText").get(0).textContent = "Rohs";
   $("#case_noText").get(0).textContent = $("#case_no").text();
+  $("#company_nameText").get(0).textContent = $("#company_name").text();
+  $("#company_addressText").get(0).textContent = $("#company_address").text();
 
   var getUrlString = location.href;
   var url = new URL(getUrlString);
   var barcodeNo = url.searchParams.get("barcode_no");
   JsBarcode("#barcode", barcodeNo, {
     format: "code128",
-    height: 30,
+    height: 25,
     width: 1,
     fontSize: 12,
-    marginTop: 308,
-    marginLeft: 125,
+    marginTop: 323,
+    marginLeft: 120,
     displayValue: true,
   });
   $("#svg").append($("#barcode").children()[1]);
