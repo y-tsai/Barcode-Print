@@ -21,7 +21,7 @@ function getTableData() {
   document.getElementById("air_type").innerText = url.searchParams.get("air_type");
   document.getElementById("power_phase").innerText = url.searchParams.get("power_phase");
   document.getElementById("power_volt").innerText = url.searchParams.get("power_volt");
-  document.getElementById("capacity_cool").innerText = url.searchParams.get("capacity_cool");
+  document.getElementById("capacity_cold").innerText = url.searchParams.get("capacity_cold");
   document.getElementById("air_volume").innerHTML = airVolume;
   document.getElementById("air_kg").innerText = url.searchParams.get("air_kg");
   document.getElementById("year").innerText = url.searchParams.get("year");
