@@ -166,14 +166,14 @@ $inBtnModalConfirm.on("click", function check_on() {
   var year = $("#inYear").val();
   var case_no = $("#inCase_no").val();
 
-  var InverterPrint = `InverterPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
-  var ColdPrint = `ColdPrint.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+  var inHeat = `inHeat.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+  var inCold = `inCold.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
  
   
   if (cla === "冷暖內機") {
-    window.open(InverterPrint, "_blank");
+    window.open(inHeat, "_blank");
   }else{
-    window.open(ColdPrint, "_blank");
+    window.open(inCold, "_blank");
   };
   
 });
@@ -186,14 +186,14 @@ $outBtnModalConfirm.on("click", function check_on() {
   var case_no = $("#outCase_no").val();
   
 
-  var InverterOutdoor = `InverterOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&operatingHeat=${row.operatingHeat}&consumptionHeat=${row.consumptionHeat}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspfNo}`;
-  var ColdOutdoor = `ColdOutdoor.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspfNo}`;
+  var outHeat = `outHeat.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&operatingHeat=${row.operatingHeat}&consumptionHeat=${row.consumptionHeat}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspfNo}`;
+  var outCold = `outCold.html?product_class=${row.product_class}&brand=${row.brand}&product_name=${row.product_name}&air_type=${row.air_type}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&air_width=${row.air_width}&air_height=${row.air_height}&air_depth=${row.air_depth}&air_kg=${row.air_kg}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspfNo}`;
   
   
   if (outCla === "冷暖外機") {
-    window.open(InverterOutdoor, "_blank");
+    window.open(outHeat, "_blank");
   }else{
-    window.open(ColdOutdoor, "_blank");
+    window.open(outCold, "_blank");
   };
   
 });
