@@ -47,25 +47,27 @@
         <tr>
           <th data-field="product_class" data-filter-control="select">Product Class</th>
           <th data-field="brand" data-filter-control="select">Brand</th>
-          <th data-field="product_name" data-filter-control="select">Product Name</th>
-          <th data-field="air_type" data-filter-control="input">Air Type</th>
+          <th data-field="display_name" data-filter-control="select">Display Name</th>
+          <th data-field="name" data-filter-control="input">Name</th>
           <th data-field="power_phase" data-filter-control="select">電源</th>
-          <th data-field="start_current">啟動電流</th>
           <th data-field="power_volt">V</th>
+          <th data-field="start_current">啟動電流</th>          
           <th data-field="capacity_cold">額定冷氣能力(kw)</th>
           <th data-field="capacity_heat">額定暖氣能力(kw)</th>
+          <th data-field="capacity_center">中間冷氣能力(kw)</th>
           <th data-field="operatingCold">額定冷氣運轉電流</th>
           <th data-field="operatingHeat">額定暖氣運轉電流</th>
           <th data-field="consumptionCold">額定冷氣消耗功率</th>
           <th data-field="consumptionHeat">額定暖氣消耗功率</th>
+          <th data-field="consumption_center">中間冷氣消耗功率</th>
           <th data-field="refrigerant">冷媒填充量</th>
-          <th data-field="cspfNo">CSPF</th>
-          <th data-field="air_width">寬(mm)</th>
-          <th data-field="air_height">高(mm)</th>
-          <th data-field="air_depth">深(mm)</th>
+          <th data-field="cspf">CSPF</th>
+          <th data-field="width">寬(mm)</th>
+          <th data-field="height">高(mm)</th>
+          <th data-field="depth">深(mm)</th>
           <th data-field="psig_h">設計壓力(H)</th>
           <th data-field="psig_l">設計壓力(L)</th>
-          <th data-field="air_kg">重量(kg)</th>
+          <th data-field="weight">重量(kg)</th>
           <th data-field="company_name">Company Name</th>
           <th data-field="company_tel">Company Phone</th>
           <th data-field="company_address">Company Address</th>
@@ -111,6 +113,7 @@
             <br> 
             <label>*年份 ： <input required="required" type="text" id="inYear" /></label> 
             <label>*流水號 ： <input type="text" id="inBarcode_no" /></label>
+            <label>*台數 ： <input type="text" id="qty" /></label>
             <label>機殼編號 ： <input type="text" id="inCase_no" /></label>
           </form>
           </div>
@@ -179,9 +182,7 @@
           
         </div>
       </div>
-    </div>
-    
-
+    </div> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
