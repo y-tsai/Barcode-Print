@@ -5,6 +5,7 @@ var $inCheckForm = $("#inCheck-form");
 var $outCheckForm = $("#outCheck-form");
 var $inBtnModalConfirm = $("#in_btn-modal-confirm");
 var $outBtnModalConfirm = $("#out_btn-modal-confirm");
+const host = "http://localhost:3003/pdf/";
 
 let myList
 //getData
@@ -14,38 +15,46 @@ function ajaxRequest(params) {
 
   $.get(url).then(function (res) {
     var listable = res.data;
-    list = listable.map((product) => {
-      return {
-        product_class: product.product_specs.product_class,
-        brand: product.brand.name,
-        display_name: product.product_specs.display_name,
-        name: product.name,
-        power_phase: product.product_specs.power_phase,
-        power_volt: product.product_specs.power_volt,
-        start_current: product.product_specs.start_current,
-        capacity_cold: product.product_specs.capacity_cold,
-        capacity_heat: product.product_specs.capacity_heat,
-        capacity_center: product.product_specs.capacity_center,
-        operatingCold: product.product_specs.operatingcold,
-        operatingHeat: product.product_specs.operatingheat,
-        consumptionCold:product.product_specs.consumptioncold,
-        consumptionHeat:product.product_specs.consumptionheat,
-        consumption_center: product.product_specs.consumption_center,
-        refrigerant:product.product_specs.refrigerant,
-        cspf:product.product_specs.cspf,
-        width: product.product_specs.width,
-        height: product.product_specs.height,
-        depth: product.product_specs.depth,
-        psig_h: product.product_specs.psig_h,
-        psig_l: product.product_specs.psig_l,
-        weight: product.product_specs.weight,
-        company_name: product.brand.company_name,
-        company_tel: product.brand.company_tel,
-        company_address: product.brand.company_address,
-        sticker_no: product.product_specs.sticker_no,
-        case_no: product.product_specs.case_no,       
-      };
-    });
+    let listable2 = [];
+    $.each(listable, (index, val) => {
+      if(val.product_specs != null && val.product_specs != undefined) {
+        listable2.push(val);
+      }
+      else{
+      }
+    })
+    list = listable2.map((product) => {
+          return {
+            product_class: product.product_specs && product.product_specs.product_class,
+            brand: product.brand.name,
+            display_name: product.product_specs.display_name,
+            name: product.name,
+            power_phase: product.product_specs.power_phase,
+            power_volt: product.product_specs.power_volt,
+            start_current: product.product_specs.start_current,
+            capacity_cold: product.product_specs.capacity_cold,
+            capacity_heat: product.product_specs.capacity_heat,
+            capacity_center: product.product_specs.capacity_center,
+            operatingCold: product.product_specs.operatingcold,
+            operatingHeat: product.product_specs.operatingheat,
+            consumptionCold:product.product_specs.consumptioncold,
+            consumptionHeat:product.product_specs.consumptionheat,
+            consumption_center: product.product_specs.consumption_center,
+            refrigerant:product.product_specs.refrigerant,
+            cspf:product.product_specs.cspf,
+            width: product.product_specs.width,
+            height: product.product_specs.height,
+            depth: product.product_specs.depth,
+            psig_h: product.product_specs.psig_h,
+            psig_l: product.product_specs.psig_l,
+            weight: product.product_specs.weight,
+            company_name: product.brand.company_name,
+            company_tel: product.brand.company_tel,
+            company_address: product.brand.company_address,
+            sticker_no: product.product_specs.sticker_no,
+            case_no: product.product_specs.case_no,       
+          };
+      });
     myList = list;
     params.success(list);
   });
@@ -69,29 +78,31 @@ $('.nav-link').on('click', function () {
           "display_name",
           "name",
           "capacity_cold",
-          "sticker_no",
           "case_no",
         ]);
         $printTable.bootstrapTable('hideColumn', [
-          "start_current",
           "power_phase",
+          "power_volt",
+          "start_current",
+          "capacity_heat",
+          "capacity_center",
+          "operatingCold",
+          "operatingHeat",
+          "consumptionCold",
+          "consumptionHeat",
+          "consumption_center",
           "refrigerant",
           "cspf",
           "width",
           "height",
           "depth",
+          "psig_h",
+          "psig_l",
           "weight",
           "company_name",
           "company_tel",
           "company_address",
-          "power_volt",
-          "psig_h",
-          "psig_l",    
-          "operatingCold",
-          "operatingHeat",
-          "consumptionCold",
-          "consumptionHeat",     
-          "capacity_heat",  
+          "sticker_no",
         ]);
       break;
     default:
@@ -102,7 +113,6 @@ $('.nav-link').on('click', function () {
         "display_name",
         "name",
         "start_current",
-        "sticker_no",
         "case_no",
         "operatingCold",
         "consumptionCold",
@@ -112,28 +122,41 @@ $('.nav-link').on('click', function () {
         "power_volt",
         "capacity_cold",
         "capacity_heat",
+        "capacity_center",
+        "operatingHeat",
+        "consumptionHeat",
+        "consumption_center",
+        "refrigerant",
+        "cspf",
         "width",
         "height",
         "depth",
+        "psig_h",
+        "psig_l",
         "weight",
         "company_name",
         "company_tel",
         "company_address",
-        "cspf",
-        "psig_h",
-        "psig_l", 
-        "operatingHeat",
-        "consumptionHeat",   
-        "refrigerant",
+        "sticker_no",
       ]);
       break;
   }
+  function isFilter(value) {
+    try{
+      return value.product_class.indexOf(filter) != -1;
+    }
+    catch(ex) {
+      console.log(value);
+    }
+  }
 
-  let tempList = myList.filter(x=>x.display_name.indexOf(filter) != -1);
+  let tempList = myList.filter(isFilter);
 
   $('#printTable').bootstrapTable('load', tempList);
 
 });
+
+
 
 let row = undefined;
 $printTable.on("click-row.bs.table", function (e, rows) {
@@ -142,7 +165,7 @@ $printTable.on("click-row.bs.table", function (e, rows) {
 if (proClass.indexOf("內機") != -1){
   $indoorModal.modal("show");
   document.getElementById("inBrand").innerText = rows.brand;
-  document.getElementById("inname").innerText = rows.name;
+  document.getElementById("inName").innerText = rows.name;
   document.getElementById("inPower_volt").innerText = rows.power_volt;
   document.getElementById("inCapacity_cold").innerText = rows.capacity_cold;
   document.getElementById("inCase_no").value = rows.case_no;
@@ -151,10 +174,10 @@ if (proClass.indexOf("內機") != -1){
 }else{
   $outdoorModal.modal("show");
   document.getElementById("outBrand").innerText = rows.brand;
-  document.getElementById("outname").innerText = rows.name;
+  document.getElementById("outName").innerText = rows.name;
   document.getElementById("outPower_volt").innerText = rows.power_volt;
   document.getElementById("outOperatingCold").innerText = rows.operatingCold;
-  document.getElementById("outCspfNo").innerText = rows.cspf;
+  document.getElementById("outCspf").innerText = rows.cspf;
   document.getElementById("outCase_no").value = rows.case_no;
   document.getElementById("outProduct_class").innerText = rows.product_class;
   document.getElementById("outStart_current").innerText = rows.start_current;
@@ -163,23 +186,23 @@ if (proClass.indexOf("內機") != -1){
 };
 });
 
-// $inBtnModalConfirm.on("click", function check_on() {
-//   var cla = row.product_class;
-//   var barcode_no = $("#inBarcode_no").val();
-//   var year = $("#inYear").val();
-//   var case_no = $("#inCase_no").val();
+$inBtnModalConfirm.on("click", function check_on() {
+  var displayName = row.display_name;
+  var barcode_no = $("#inBarcode_no").val();
+  var year = $("#inYear").val();
+  var case_no = $("#inCase_no").val();
 
-//   var inHeat = `inHeat.html?product_class=${row.product_class}&brand=${row.brand}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
-//   var inCold = `inCold.html?product_class=${row.product_class}&brand=${row.brand}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+  var spec_sm_indoor_c = `${host}spec_sm_indoor_c.html?brand=${row.brand}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
+  var spec_sm_indoor_h = `${host}spec_sm_indoor_h.html?&brand=${row.brand}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}`;
  
+  console.log(spec_sm_indoor_c);
+  if (displayName === "冷專室內機") {
+    window.open(spec_sm_indoor_c, "_blank");
+  }else{
+    window.open(spec_sm_indoor_h, "_blank");
+  };
   
-//   if (cla === "冷暖內機") {
-//     window.open(inHeat, "_blank");
-//   }else{
-//     window.open(inCold, "_blank");
-//   };
-  
-// });
+});
 
 // //outdoor modal check btn 
 // $outBtnModalConfirm.on("click", function check_on() {
