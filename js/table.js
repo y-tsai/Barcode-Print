@@ -188,14 +188,17 @@ if (proClass.indexOf("內機") != -1){
 
 $inBtnModalConfirm.on("click", function check_on() {
   var displayName = row.display_name;
-  var serials = $("#inSerials").val();
   var year = $("#inYear").val();
   var case_no = $("#inCase_no").val();
-  var inQty = $("#inQty").val();
-  var 
-  
-  var spec_sm_indoor_c = `${host}spec_sm_indoor_c.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
-  var spec_sm_indoor_h = `${host}spec_sm_indoor_h.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
+  var serialStart = Number($("#inSerialStart").val());
+  var serials = [];
+  var qty = $("#inQty").val();
+  for (var i = 0; i < qty; i++) {
+    serials.push(String(serialStart + i).padStart(6,0));
+  }
+
+  var spec_sm_indoor_c = `${host}spec_sm_indoor_c.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials.join(",")}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
+  var spec_sm_indoor_h = `${host}spec_sm_indoor_h.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials.join(",")}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
 
   if (displayName == "分離式冷專室內機") {
     window.open(spec_sm_indoor_c, "_blank");
