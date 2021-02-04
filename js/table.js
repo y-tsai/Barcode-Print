@@ -5,6 +5,7 @@ var $inCheckForm = $("#inCheck-form");
 var $outCheckForm = $("#outCheck-form");
 var $inBtnModalConfirm = $("#in_btn-modal-confirm");
 var $outBtnModalConfirm = $("#out_btn-modal-confirm");
+const host = "http://localhost:3003/pdf/";
 
 let myList
 //getData
