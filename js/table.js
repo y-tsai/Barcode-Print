@@ -5,7 +5,8 @@ var $inCheckForm = $("#inCheck-form");
 var $outCheckForm = $("#outCheck-form");
 var $inBtnModalConfirm = $("#in_btn-modal-confirm");
 var $outBtnModalConfirm = $("#out_btn-modal-confirm");
-const host = "http://print.nht.com/pdf";
+var $barcodeBtn = $("#in_btn-modal-barcode , #out_btn-modal-barcode");
+const host = "http://print.nht.com/";
 
 let myList
 //getData
@@ -29,6 +30,7 @@ function ajaxRequest(params) {
             brand: product && product.brand.name,
             display_name: product.product_specs && product.product_specs.display_name,
             name: product && product.name,
+            product_name: product.product_specs && product.product_specs.name,
             power_phase: product.product_specs && product.product_specs.power_phase,
             power_volt: product.product_specs && product.product_specs.power_volt,
             start_current: product.product_specs && product.product_specs.start_current,
@@ -186,6 +188,8 @@ if (proClass.indexOf("內機") != -1){
 };
 });
 
+
+
 $inBtnModalConfirm.on("click", function check_on() {
   var displayName = row.display_name;
   var year = $("#inYear").val();
@@ -197,8 +201,8 @@ $inBtnModalConfirm.on("click", function check_on() {
     serials.push(String(serialStart + i).padStart(6,0));
   }
 
-  var spec_sm_indoor_c = `${host}/spec_sm_indoor_c.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials.join(",")}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
-  var spec_sm_indoor_h = `${host}/spec_sm_indoor_h.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials.join(",")}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
+  var spec_sm_indoor_c = `${host}pdf/spec_sm_indoor_c.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials.join(",")}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
+  var spec_sm_indoor_h = `${host}pdf/spec_sm_indoor_h.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&serials=${serials.join(",")}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}`;
 
   if (displayName == "分離式冷專室內機") {
     window.open(spec_sm_indoor_c, "_blank");
@@ -222,8 +226,8 @@ $outBtnModalConfirm.on("click", function check_on() {
   }
   
 
-  var spec_sm_outdoor_h = `${host}/spec_sm_outdoor_h.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&operatingHeat=${row.operatingHeat}&consumptionHeat=${row.consumptionHeat}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
-  var spec_sm_outdoor_c = `${host}/spec_sm_outdoor_c.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
+  var spec_sm_outdoor_h = `${host}pdf/spec_sm_outdoor_h.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&operatingHeat=${row.operatingHeat}&consumptionHeat=${row.consumptionHeat}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
+  var spec_sm_outdoor_c = `${host}pdf/spec_sm_outdoor_c.html?product_name=${row.product_name}&brand=${row.brand}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&barcode_no=${barcode_no}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
   
   
   if (displayName === "分離式冷暖外機") {
@@ -234,5 +238,15 @@ $outBtnModalConfirm.on("click", function check_on() {
   
 });
 
+$barcodeBtn.on("click", function check_on(){
+  var serialStart = Number($("#outSerialStart").val());
+  var serials = [];
+  var qty = $("#outQty").val();
+  for (var i = 0; i < qty; i++) {
+    serials.push(String(serialStart + i).padStart(6,0));
+  }
+var barcode = `${host}pdf/barcode.html?product_name=${row.product_name}`
 
+window.open(barcode, "_blank")
 
+});
