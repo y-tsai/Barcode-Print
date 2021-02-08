@@ -245,7 +245,7 @@ $barcodeBtn.on("click", function check_on(){
   for (var i = 0; i < qty; i++) {
     serials.push(String(serialStart + i).padStart(6,0));
   }
-var barcode = `${host}pdf/barcode.html?product_name=${row.product_name}`
+var barcode = `${host}pdf/barcode.html?product_name=${row.product_name}&barcode_no=${barcode_no}`
 
 window.open(barcode, "_blank")
 
