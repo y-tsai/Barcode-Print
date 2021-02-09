@@ -239,13 +239,15 @@ $outBtnModalConfirm.on("click", function check_on() {
 });
 
 $barcodeBtn.on("click", function check_on(){
+
   var serialStart = Number($("#outSerialStart").val());
   var serials = [];
   var qty = $("#outQty").val();
+
   for (var i = 0; i < qty; i++) {
     serials.push(String(serialStart + i).padStart(6,0));
   }
-var barcode = `${host}pdf/barcode.html?product_name=${row.product_name}
+var barcode = `${host}pdf/barcode.html?product_name=${row.product_name}`
 
 window.open(barcode, "_blank")
 
