@@ -210,6 +210,7 @@ $inBtnModalConfirm.on("click", function check_on() {
   }else{
     window.open(spec_sm_indoor_h, "_blank");
   };
+  console.log(displayName);
   
 });
 
