@@ -242,25 +242,10 @@ $outBtnModalConfirm.on("click", function check_on() {
 
 $barcodeBtn.on("click", function check_on(){
 
-  var serialStart = Number($("#inSerialStart").val());
+  var serialStart = Number($(".SerialStart").val());
   var serials = [];
-  var qty = $("#outQty").val();
-
-  for (var i = 0; i < qty; i++) {
-    serials.push(String(serialStart + i).padStart(6,0));
-  }
-var barcode = `${host}pdf/barcode.html?product_name=${row.product_name}&serials=${serials.join(",")}`
-
-window.open(barcode, "_blank")
-
-});
-
-$barcodeBtn.on("click", function check_on(){
-
-  var serialStart = Number($("#outSerialStart").val());
-  var serials = [];
-  var qty = $("#outQty").val();
-
+  var qty = $(".qty").val();
+ 
   for (var i = 0; i < qty; i++) {
     serials.push(String(serialStart + i).padStart(6,0));
   }
