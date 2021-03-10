@@ -8,6 +8,7 @@ var $outBtnModalConfirm = $("#out_btn-modal-confirm");
 var $barcodeBtn = $("#in_btn-modal-barcode , #out_btn-modal-barcode");
 
 const host = "http://print.nht.com/";
+const local = "locolhost:3003/"
 
 let myList
 //getData
@@ -228,8 +229,8 @@ $outBtnModalConfirm.on("click", function check_on() {
   }
   
 
-  var spec_sm_outdoor_h = `${host}pdf/spec_sm_outdoor_h.html?product_name=${row.product_name}&brand=${row.brand}&serials=${serials.join(",")}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&operatingHeat=${row.operatingHeat}&consumptionHeat=${row.consumptionHeat}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
-  var spec_sm_outdoor_c = `${host}pdf/spec_sm_outdoor_c.html?product_name=${row.product_name}&brand=${row.brand}&serials=${serials.join(",")}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
+  var spec_sm_outdoor_h = `${local}pdf/spec_sm_outdoor_h.html?product_name=${row.product_name}&brand=${row.brand}&serials=${serials.join(",")}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&capacity_heat=${row.capacity_heat}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&operatingHeat=${row.operatingHeat}&consumptionHeat=${row.consumptionHeat}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
+  var spec_sm_outdoor_c = `${local}pdf/spec_sm_outdoor_c.html?product_name=${row.product_name}&brand=${row.brand}&serials=${serials.join(",")}&display_name=${row.display_name}&name=${row.name}&power_phase=${row.power_phase}&power_volt=${row.power_volt}&capacity_cold=${row.capacity_cold}&width=${row.width}&height=${row.height}&depth=${row.depth}&weight=${row.weight}&company_name=${row.company_name}&company_tel=${row.company_tel}&company_address=${row.company_address}&sticker_no=${row.sticker_no}&case_no=${case_no}&year=${year}&start_current=${row.start_current}&operatingCold=${row.operatingCold}&consumptionCold=${row.consumptionCold}&refrigerant=${row.refrigerant}&psig_h=${row.psig_h}&psig_l=${row.psig_l}&cspfNo=${row.cspf}`;
   
   
   if (displayName == "分離式冷專室外機") {
@@ -249,7 +250,7 @@ $barcodeBtn.on("click", function check_on(){
   for (var i = 0; i < qty; i++) {
     serials.push(String(serialStart + i).padStart(6,0));
   }
-var barcode = `${host}pdf/barcode.html?product_name=${row.product_name}&serials=${serials.join(",")}`
+var barcode = `${local}pdf/barcode.html?product_name=${row.product_name}&serials=${serials.join(",")}`
 
 window.open(barcode, "_blank")
 
