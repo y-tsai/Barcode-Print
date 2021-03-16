@@ -8,14 +8,13 @@ var $outBtnModalConfirm = $("#out_btn-modal-confirm");
 var $barcodeBtn = $("#in_btn-modal-barcode , #out_btn-modal-barcode");
 
 const host = "http://print.nht.com/";
-const local = "locolhost:3003/"
+const local = "localhost:3003/"
 
 let myList
 //getData
 function ajaxRequest(params) {
   var url =
     "https://backend-v9.jin-ting.com.tw/items/product?fields=*.*&filter[product_specs][_nempty]=true";
-
   $.get(url).then(function (res) {
     var listable = res.data;
     let listable2 = [];
@@ -63,6 +62,33 @@ function ajaxRequest(params) {
     params.success(list);
   });
 };
+
+const listJson = "http://tnn-nav02.nht.com:7048/NAV90/OData/Company('%E5%8D%97%E4%BA%A8%E7%A7%91%E6%8A%80')/ProductionOrder?$format=json&$select=No,Item_No,Status,Serial_No,Description,Production_BOM_No,Creation_Date&$filter=Status%20eq%20%27Planned%27";
+// const newArray = array.map(function(array){
+//   return array;
+//   });
+  console.log(newArray);
+  // console.log(newArray);
+
+//   let jsonList
+// //getData
+// function ajaxRequest(jsonParams) {
+//   var url1 =
+//     "http://tnn-nav02.nht.com:7048/NAV90/OData/Company('%E5%8D%97%E4%BA%A8%E7%A7%91%E6%8A%80')/ProductionOrder?$format=json&$select=No,Item_No,Status,Serial_No,Description,Production_BOM_No,Creation_Date&$filter=Status%20eq%20%27Planned%27";
+
+//   $.get(url1).then(function (res) {
+//     var listable1 = res.data;
+//     jsonList1 = listable1.map((product) => {
+//       return {  
+//         no: no,
+
+//       };
+//     });
+//     jsonList = jsonList1;
+//     jsonParams.success(list);
+//     console.log(jsonList1);
+//   });
+// }
 
 
 // navbar
