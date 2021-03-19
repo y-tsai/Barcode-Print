@@ -63,33 +63,35 @@ function ajaxRequest(params) {
   });
 };
 
-const listJson = "http://tnn-nav02.nht.com:7048/NAV90/OData/Company('%E5%8D%97%E4%BA%A8%E7%A7%91%E6%8A%80')/ProductionOrder?$format=json&$select=No,Item_No,Status,Serial_No,Description,Production_BOM_No,Creation_Date&$filter=Status%20eq%20%27Planned%27";
-// const newArray = array.map(function(array){
-//   return array;
-//   });
-  console.log(newArray);
-  // console.log(newArray);
-
-//   let jsonList
-// //getData
-// function ajaxRequest(jsonParams) {
-//   var url1 =
-//     "http://tnn-nav02.nht.com:7048/NAV90/OData/Company('%E5%8D%97%E4%BA%A8%E7%A7%91%E6%8A%80')/ProductionOrder?$format=json&$select=No,Item_No,Status,Serial_No,Description,Production_BOM_No,Creation_Date&$filter=Status%20eq%20%27Planned%27";
-
-//   $.get(url1).then(function (res) {
-//     var listable1 = res.data;
-//     jsonList1 = listable1.map((product) => {
-//       return {  
-//         no: no,
-
-//       };
-//     });
-//     jsonList = jsonList1;
-//     jsonParams.success(list);
-//     console.log(jsonList1);
-//   });
-// }
-
+function returnJson(){
+  // var list = "http://tnn-nav02.nht.com:7048/NAV90/OData/Company('%E5%8D%97%E4%BA%A8%E7%A7%91%E6%8A%80')/ProductionOrder?$format=json&$select=No,Item_No,Status,Serial_No,Description,Production_BOM_No,Creation_Date&$filter=Status%20eq%20%27Planned%27";
+  var list = 'C:\Users\ytsai\Desktop\pro\Barcode-Print\ProductionOrder.json';
+  $.get(list).then(function (re){
+   var listJson = re.value;
+   let listJson2 = [];
+   $.each(listJson, (index, val) => {
+     if (val.Serial_No != null) {
+      listJson2.push(val);
+     }
+     else{
+     }
+   })
+   newArray = listJson2.map((No) => {
+     return {
+       No: value.No,
+       Status: value.Status,
+       Creation_Date: value.Creation_Date,
+       Item_No: value.Item_No,
+       Serial_No: value.Serial_No,
+       Production_BOM_No: value.Production_BOM_No
+     };
+   });
+   returnArray = newArray,
+   params.success(newArray);
+  });
+};
+console.log(returnJson);
+returnJson();
 
 // navbar
 $('.nav-link').on('click', function () {
