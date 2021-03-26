@@ -65,16 +65,43 @@ function ajaxRequest(params) {
 
 function returnJson(params){
   // var list = "http://tnn-nav02.nht.com:7048/NAV90/OData/Company('%E5%8D%97%E4%BA%A8%E7%A7%91%E6%8A%80')/ProductionOrder?$format=json&$select=No,Item_No,Status,Serial_No,Description,Production_BOM_No,Creation_Date&$filter=Status%20eq%20%27Planned%27";
+  // input
+  // output
+  // { No: "123", Status: "Planned", Creation_Date: "2021-01-01", Item_No: "JSV-28RN", Serial_No: [100001.100002,100003]}
+  // {}, Map
   var list = 'ProductionOrder.json';
   $.get(list).then(function (re){
-   let result = re.value.reduce((acc, curr) => {
-     if (curr.Serial_No) {
-       return acc.concat(curr);
-     }
-   }, []);
-   params.success(result);
+   let result = re.value.reduce((obj, curr) => {
+    //  if (curr.Serial_No) {
+    //    return acc.concat(curr);
+    //  }
+    const { No, Serial_No } = curr;
+    let row = {};
+    if (obj[No]) {
+      // if obj already exists
+      row = obj[No];
+      row.Serial_No += `,${Serial_No}`;
+    } else {
+      // if obj doesn't exist
+      row = curr;
+    }
+    obj[No] = row;
+    return obj;
+   }, {});
+   console.log(result);
+   params.success(re);
   });
-};
+}; 
+
+//資料代入明細
+// function detailFormatter(index, row) {
+//   var detail = []
+//   $.each(row, function (key, value) {
+//     detail.push('<p><b>' + key + ':</b> ' + value + '</p>')
+//   })
+//   return detail.join('')
+// }
+
 
 // navbar
 $('.nav-link').on('click', function () {

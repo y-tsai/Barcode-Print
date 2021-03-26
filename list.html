@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barcode Print Table</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css"/>
-    <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-    <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.css" rel="stylesheet"/>
-    <link rel="shortcut icon" href="#" />
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-md nav-tabs navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barcode Print Table</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css" />
+  <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link
+    href="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.css"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="#" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md nav-tabs navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -28,21 +32,21 @@
         </li>
       </ul>
     </div>
-    </nav>
-    <div class="tab-content">
-    <table
-      id="printTable"
-      data-toggle="table"
-      class="table table-hover"
-      data-height="800"
-      data-filter-control="true"
-      data-pagination="true"
-      data-show-columns="true"
-      data-show-jump-to="true"
-      data-checkbox-header="false"
-      data-click-to-select="true"
-      data-ajax="ajaxRequest"
-    >
+  </nav>
+  <div class="tab-content">
+    <table 
+    id="printTable"
+    data-toggle="table" 
+    class="table table-hover"
+    data-height="800" 
+    data-filter-control="true"
+    data-pagination="true" 
+    data-show-columns="true" 
+    data-show-jump-to="true" 
+    data-checkbox-header="false"
+    data-click-to-select="true" 
+    data-ajax="ajaxRequest">
+
       <thead class="thead-light">
         <tr>
           <th data-field="product_class" data-filter-control="select">Product Class</th>
@@ -52,7 +56,7 @@
           <th data-field="name" data-filter-control="input">Name</th>
           <th data-field="power_phase" data-filter-control="select">電源</th>
           <th data-field="power_volt">V</th>
-          <th data-field="start_current">啟動電流</th>          
+          <th data-field="start_current">啟動電流</th>
           <th data-field="capacity_cold">額定冷氣能力(kw)</th>
           <th data-field="capacity_heat">額定暖氣能力(kw)</th>
           <th data-field="capacity_center">中間冷氣能力(kw)</th>
@@ -77,147 +81,122 @@
         </tr>
       </thead>
     </table>
-    <table id="bomTable"
-    data-toggle="table"
-    class="table table-hover"
-    data-height="800"
+    <table 
+    id="bomTable" 
+    data-ajax="returnJson"
+    data-toggle="table" 
+    class="table table-hover" 
+    data-height="600" 
     data-filter-control="true"
-    data-pagination="true"
-    data-show-columns="true"
+    data-pagination="true" 
+    data-detail-view="true" 
+    data-detail-formatter="detailFormatter" 
+    data-show-columns="true" 
     data-show-jump-to="true"
-    data-checkbox-header="false"
-    data-click-to-select="true"
-    data-ajax="returnJson">
-
-    <thead class="thead-light">
-      <tr>
-        <th data-field="No" data-filter-control="select">No</th>
-        <th data-field="Status" data-filter-control="select">Status</th>
-        <th data-field="Creation_Date" data-filter-control="select">Creation_Date</th>
-        <th data-field="Item_No" data-filter-control="select">Item_No</th>
-        <th data-field="Serial_No" data-filter-control="select">Serial_No</th>
-        <th data-field="Production_BOM_No" data-filter-control="select">Production_BOM_No</th>
-      </tr>
-    </thead>
-    
-    </table>
-    
-  </div>
-    <div
-      class="modal fade"
-      id="indoor-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
+    data-checkbox-header="false" 
+    data-click-to-select="true" 
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalCenterTitle">
-              列印確認
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form id="inCheck-form">
-             <label>Class ： <p id="inProduct_class"></p></label>
-             <br> 
-            <label>Brand ： <p id="inBrand"></p></label>
-            <br> 
-            <label>機型 ： <p id="inName"></p></label>
-            <br> 
-            <label>電源 ： <p id="inPower_volt"></p></label>
-            <br> 
-            <label>
-              額定冷氣能力(kw) ：
-              <p id="inCapacity_cold"></p>
-            </label>
-            <br> 
-            <label>*年份 ： <input required="required" type="text" id="inYear" value="110" /></label> 
-            <label>*流水號 ： <input type="number" min="0" max="999999" id="inSerialStart" class="SerialStart"/></label>
-            <label>*台數 ： <input type="number" id="inQty" class="qty" min="1" max="100" value="1" /></label>
+
+      <thead class="thead-light">
+        <tr>
+          <th data-field="No" data-filter-control="select">No</th>
+          <th data-field="Status" data-filter-control="select">Status</th>
+          <th data-field="Creation_Date" data-filter-control="select">Creation_Date</th>
+          <th data-field="Item_No" data-filter-control="select">Item_No</th>
+          <th data-field="Serial_No" data-filter-control="select">Serial_No</th>
+          <th data-field="Production_BOM_No" data-filter-control="select">Production_BOM_No</th>
+          <th data-field="set">台</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="modal fade" id="indoor-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalCenterTitle">列印確認</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="inCheck-form">
+            <label>Class ：
+              <p id="inProduct_class"></p></label>
+            <br />
+            <label>Brand ：<p id="inBrand"></p></label>
+            <br />
+            <label>機型 ：<p id="inName"></p></label>
+            <br />
+            <label>電源 ：<p id="inPower_volt"></p></label>
+            <br />
+            <label>額定冷氣能力(kw) ：<p id="inCapacity_cold"></p></label>
+            <br />
+            <label>*年份 ：<input required="required" type="text" id="inYear" value="110" /></label>
+            <label>*流水號 ：<input type="number" min="0" max="999999" id="inSerialStart" class="SerialStart" /></label>
+            <label>*台數 ：<input type="number" id="inQty" class="qty" min="1" max="100" value="1" /></label>
             <label>機殼編號 ： <input type="text" id="inCase_no" /></label>
           </form>
-          </div>
-          <div class="modal-footer">
-            <button id="in_btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">
-              關閉
-            </button>
-            <button id="in_btn-modal-barcode" type="button" class="btn btn-primary" data-formatter="confirm_btn">條碼</button>
-            <button id="in_btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
-          </div>
-          
+        </div>
+        <div class="modal-footer">
+          <button id="in_btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+          <button id="in_btn-modal-barcode" type="button" class="btn btn-primary" data-formatter="confirm_btn">條碼</button>
+          <button id="in_btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <div
-      class="modal fade"
-      id="outdoor-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalCenterTitle">
-              列印確認
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form id="outCheck-form">
-             <label>Class ： <p id="outProduct_class"></p></label>
-             <br> 
-            <label>Brand ： <p id="outBrand"></p></label>
-            <br> 
-            <label>機型 ： <p id="outName"></p></label>
-            <br> 
-            <label>電源 ： <p id="outPower_volt"></p></label>
-            <br> 
-            <label>啟動電流 ： <p id="outStart_current"></p></label>
-            <br> 
-            <label>
-              額定運轉電流(A) ：
-              <p id="outOperatingCold"></p>
+  <div class="modal fade" id="outdoor-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalCenterTitle">列印確認</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="outCheck-form">
+            <label>Class ：<p id="outProduct_class"></p></label>
+            <br />
+            <label>Brand ：<p id="outBrand"></p></label>
+            <br />
+            <label>機型 ：<p id="outName"></p></label>
+            <br />
+            <label>電源 ：<p id="outPower_volt"></p></label>
+            <br />
+            <label>啟動電流 ：<p id="outStart_current"></p></label>
+            <br />
+            <label>額定運轉電流(A) ：<p id="outOperatingCold"></p>
             </label>
-            <br> 
-            <label>
-              CSPF(冷氣季節性能因數)：
-              <p id="outCspf"></p>
+            <br />
+            <label>CSPF(冷氣季節性能因數)： <p id="outCspf"></p>
             </label>
-            <br> 
-            <label>*年份 ： <input required="required" type="text" id="outYear" value="110" /></label> 
-            <label>*流水號 ： <input type="number" min="0" max="999999" id="outSerialStart" class="SerialStart" /></label>
-            <label>*台數 ： <input type="number" id="outQty" class="qty" min="1" max="100" value="1" /></label>
+            <br />
+            <label>*年份 ： <input required="required" type="text" id="outYear" value="110" /></label>
+            <label>*流水號 ：<input type="number" min="0" max="999999" id="outSerialStart" class="SerialStart" /></label>
+            <label>*台數 ：<input type="number" id="outQty" class="qty" min="1" max="100" value="1" /></label>
             <label>機殼編號 ： <input type="text" id="outCase_no" /></label>
           </form>
-          </div>
-          <div class="modal-footer">
-            <button id="out_btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">
-              關閉
-            </button>
-            <button id="out_btn-modal-barcode" type="button" class="btn btn-primary" data-formatter="confirm_btn">條碼</button>
-            <button id="out_btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
-          </div>
-          
+        </div>
+        <div class="modal-footer">
+          <button id="out_btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+          <button id="out_btn-modal-barcode" type="button" class="btn btn-primary" data-formatter="confirm_btn">條碼</button>
+          <button id="out_btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
         </div>
       </div>
-    </div> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"></script>
-    <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
-    <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.js"></script>
-    <script src="js/table.js"></script>
-  </body>
-</html>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.js"></script>
+  <script src="js/table.js"></script>
+</body>
 
+</html>
