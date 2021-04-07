@@ -89,8 +89,6 @@
     data-height="600" 
     data-filter-control="true"
     data-pagination="true" 
-    data-detail-view="true" 
-    data-detail-formatter="detailFormatter" 
     data-show-columns="true" 
     data-show-jump-to="true"
     data-checkbox-header="false" 
@@ -99,19 +97,62 @@
 
       <thead class="thead-light">
         <tr>
-          <th data-field="No" data-filter-control="select">No</th>
-          <th data-field="Status" data-filter-control="select">Status</th>
-          <th data-field="Creation_Date" data-filter-control="select">Creation_Date</th>
-          <th data-field="Item_No" data-filter-control="select">Item_No</th>
-          <th data-field="Serial_No" data-filter-control="select">Serial_No</th>
-          <th data-field="Production_BOM_No" data-filter-control="select">Production_BOM_No</th>
-          <th data-field="set">台</th>
+          <th data-field="No" data-filter-control="select">生產命令編號</th>
+          <th data-field="Item_No" data-filter-control="select">型號</th>
+          <th data-field="Production_BOM_No" data-filter-control="select">產料編號</th>
+          <th data-field="Count">台</th>
+          <th data-field="Status" data-filter-control="select">狀態</th>       
+          <th data-field="Creation_Date" data-filter-control="select">日期</th>
+          <th data-field="Serial_No" data-filter-control="select">序號</th>
         </tr>
       </thead>
     </table>
   </div>
-  <div class="modal fade" id="indoor-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
+  <div 
+  class="modal fade"
+  id="bomTable-modal" 
+  tabindex="-1" 
+  role="dialog" 
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalCenterTitle">列印確認</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="bomTable-form">
+          <label>生產命令編號 ：
+            <p id="bom_No"></p></label>
+          <br />
+          <label>產料編號 ：<p id="ProductionBomNo"></p></label>
+          <br />
+          <label>機型 ：<p id="bomName"></p></label>
+          <br />
+          <label>*年份 ：<input required="required" type="text" id="bomYear" value="110" /></label>
+          <label>*流水號 ：<input id="bomSerialStart" class="SerialStart" /></label>
+          <label>*台數 ：<input id="bomQty" class="qty"/></label>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button id="bom_btn-modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+        <button id="bom_btn-modal-barcode" type="button" class="btn btn-primary" data-formatter="confirm_btn">條碼</button>
+        <button id="bom_btn-modal-confirm" type="button" class="btn btn-primary" data-formatter="confirm_btn">確認</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div 
+  class="modal fade" 
+  id="indoor-modal" 
+  tabindex="-1" 
+  role="dialog" 
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -148,8 +189,13 @@
     </div>
   </div>
 
-  <div class="modal fade" id="outdoor-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
+  <div 
+  class="modal fade" 
+  id="outdoor-modal" 
+  tabindex="-1" 
+  role="dialog" 
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">

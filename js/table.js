@@ -1,7 +1,9 @@
 var $indoorModal = $("#indoor-modal");
 var $outdoorModal = $("#outdoor-modal");
+var $bomModal = $("#bomTable-modal");
+var $bomTable = $("#bomTable");
 var $printTable = $("#printTable");
-var $inCheckForm = $("#inCheck-form");
+var $bomTableForm = $("#bomTable-form");
 var $outCheckForm = $("#outCheck-form");
 var $inBtnModalConfirm = $("#in_btn-modal-confirm");
 var $outBtnModalConfirm = $("#out_btn-modal-confirm");
@@ -81,17 +83,20 @@ function returnJson(params){
       // if obj already exists
       row = obj[No];
       row.Serial_No += `,${Serial_No}`;
+      row.Count += 1;
     } else {
       // if obj doesn't exist
       row = curr;
+      row.Count = 1;
     }
     obj[No] = row;
     return obj;
    }, {});
-   console.log(result);
-   params.success(re);
+     params.success(Object.values(result));
   });
 }; 
+
+
 
 //資料代入明細
 // function detailFormatter(index, row) {
@@ -103,7 +108,7 @@ function returnJson(params){
 // }
 
 
-// navbar
+// navbar 內外機選擇隱藏項目
 $('.nav-link').on('click', function () {
   let table = document.getElementById('printTable');
   let tr = table.getElementsByTagName('tr');
@@ -198,8 +203,7 @@ $('.nav-link').on('click', function () {
 
 });
 
-
-
+//內外機modal開啟並代入資料
 let row = undefined;
 $printTable.on("click-row.bs.table", function (e, rows) {
   var proClass = rows.product_class;
@@ -227,9 +231,23 @@ if (proClass.indexOf("內機") != -1){
   row = rows
 };
 });
+//BOMTABLE 點擊欄位跳頁面
+//1. 如何篩選(內外，大小) 2.
+$bomTable.on("click-row.bs.table", function(e, row){ 
+  let serialNo = (row.Serial_No).split(',');
+  document.getElementById("bom_No").innerText = row.No;
+  document.getElementById("ProductionBomNo").innerText= row.Production_BOM_No;
+  document.getElementById("bomName").innerText= row.Item_No;
+  document.getElementById("bomQty").value= row.Count;
+  document.getElementById("bomSerialStart").value = serialNo[0];
+  $bomModal.modal("show");  
+});
 
 
 
+
+
+//內機modal確認按鈕代入跳轉頁面
 $inBtnModalConfirm.on("click", function check_on() {
   var displayName = row.display_name;
   var year = $("#inYear").val();
@@ -252,7 +270,7 @@ $inBtnModalConfirm.on("click", function check_on() {
   console.log(displayName);
   
 });
-
+//外機modal確認按鈕代入跳轉頁面
 // //outdoor modal check btn 
 $outBtnModalConfirm.on("click", function check_on() {
   var displayName = row.display_name;
