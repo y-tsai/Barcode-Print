@@ -133,8 +133,8 @@
           <label>機型 ：<p id="bomName"></p></label>
           <br />
           <label>*年份 ：<input required="required" type="text" id="bomYear" value="110" /></label>
-          <label>*流水號 ：<input id="bomSerialStart" class="SerialStart" /></label>
-          <label>*台數 ：<input id="bomQty" class="qty"/></label>
+          <label>*流水號 ：<input type="number" min="0" max="999999" id="bomSerialStart" class="SerialStart" /></label>
+          <label>*台數 ：<input type="number" id="bomQty" class="qty" min="1" max="100" value="1" /></label>
           
         </form>
       </div>

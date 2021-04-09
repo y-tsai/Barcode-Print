@@ -7,7 +7,8 @@ var $bomTableForm = $("#bomTable-form");
 var $outCheckForm = $("#outCheck-form");
 var $inBtnModalConfirm = $("#in_btn-modal-confirm");
 var $outBtnModalConfirm = $("#out_btn-modal-confirm");
-var $barcodeBtn = $("#in_btn-modal-barcode , #out_btn-modal-barcode");
+var $btnModalConfirm = $("#bom_btn-modal-confirm");
+var $barcodeBtn = $("#in_btn-modal-barcode , #out_btn-modal-barcode , #bom_btn-modal-barcode");
 
 const host = "http://print.nht.com/";
 const local = "localhost:3003/"
@@ -231,6 +232,7 @@ if (proClass.indexOf("內機") != -1){
   row = rows
 };
 });
+
 //BOMTABLE 點擊欄位跳頁面
 //1. 如何篩選(內外，大小) 2.
 $bomTable.on("click-row.bs.table", function(e, row){ 
@@ -242,7 +244,6 @@ $bomTable.on("click-row.bs.table", function(e, row){
   document.getElementById("bomSerialStart").value = serialNo[0];
   $bomModal.modal("show");  
 });
-
 
 
 
@@ -296,6 +297,7 @@ $outBtnModalConfirm.on("click", function check_on() {
   };
   
 });
+
 
 $barcodeBtn.on("click", function check_on(){
 
