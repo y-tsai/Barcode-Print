@@ -17,7 +17,7 @@ let myList
 //getData
 function ajaxRequest(params) {
   var url =
-    "https://backend-v9.jin-ting.com.tw/items/product?fields=*.*&filter[product_specs][_nempty]=true";
+    "https://backend-v9.jin-ting.com.tw/items/product?fields=*.*&filter[product_specs][_nempty]=true&limit=-1";
   $.get(url).then(function (res) {
     var listable = res.data;
     let listable2 = [];
@@ -72,7 +72,7 @@ function returnJson(params){
   // output
   // { No: "123", Status: "Planned", Creation_Date: "2021-01-01", Item_No: "JSV-28RN", Serial_No: [100001.100002,100003]}
   // {}, Map
-  var list = 'ProductionOrder.json';
+  var list = "ProductionOrder.json";
   $.get(list).then(function (re){
    let result = re.value.reduce((obj, curr) => {
     //  if (curr.Serial_No) {

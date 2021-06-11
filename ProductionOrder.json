@@ -1,400 +1,4127 @@
 {
   "value": [
     {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226375",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226376",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226377",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226378",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226379",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226380",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226381",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226382",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226383",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226384",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226385",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226386",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226387",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226388",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138087",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226389",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226390",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226391",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226392",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226393",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226394",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226395",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226396",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226397",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226398",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226399",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226400",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226401",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226402",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226403",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138088",
-      "Creation_Date": "2021-03-05T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JSV-36HD",
-      "Serial_No": "226404",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-\u8b8a\u983bHD\u578b3.6kW(32)\u51b7\u6696",
-      "Production_BOM_No": "BS36HD"
-    },
-    {
-      "No": "138242",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JS-36AF",
-      "Serial_No": "227089",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-AF\u578b3.6kW(32)",
-      "Production_BOM_No": "S36AF"
-    },
-    {
-      "No": "138242",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "JS-36AF",
-      "Serial_No": "227090",
-      "Description": "\u91d1\u9f0e\u5167\u6a5f-AF\u578b3.6kW(32)",
-      "Production_BOM_No": "S36AF"
-    },
-    {
-      "No": "138243",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-73RN",
-      "Serial_No": "227091",
-      "Description": "\u96c5\u54e5\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138243",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-73RN",
-      "Serial_No": "227092",
-      "Description": "\u96c5\u54e5\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138243",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-73RN",
-      "Serial_No": "227093",
-      "Description": "\u96c5\u54e5\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138243",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-73RN",
-      "Serial_No": "227094",
-      "Description": "\u96c5\u54e5\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138243",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-73RN",
-      "Serial_No": "227095",
-      "Description": "\u96c5\u54e5\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138243",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-73RN",
-      "Serial_No": "227096",
-      "Description": "\u96c5\u54e5\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138244",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-073RN",
-      "Serial_No": "227097",
-      "Description": "\u53f0\u5149\u96fb\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138244",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-073RN",
-      "Serial_No": "227098",
-      "Description": "\u53f0\u5149\u96fb\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138244",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-073RN",
-      "Serial_No": "227099",
-      "Description": "\u53f0\u5149\u96fb\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138244",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-073RN",
-      "Serial_No": "227100",
-      "Description": "\u53f0\u5149\u96fb\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138244",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-073RN",
-      "Serial_No": "227101",
-      "Description": "\u53f0\u5149\u96fb\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    },
-    {
-      "No": "138244",
-      "Creation_Date": "2021-03-10T00:00:00",
-      "Status": "Planned",
-      "Item_No": "ASV-073RN",
-      "Serial_No": "227102",
-      "Description": "\u53f0\u5149\u96fb\u5167\u6a5f-\u8b8a\u983bRN\u578b7.3kW(63)\u51b7\u6696",
-      "Production_BOM_No": "BS73RN"
-    }
+      
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237754",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237755",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237756",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237757",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237758",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237759",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237760",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237761",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237762",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237763",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237764",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237765",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237766",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237767",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237768",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140087",
+        "Creation_Date": "2021-05-12T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-42RN",
+        "Serial_No": "237769",
+        "Description": "雅哥內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239130",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239131",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239132",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239133",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239134",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239135",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239136",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239137",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239138",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239139",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239140",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239141",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239142",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239143",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239144",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239145",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239146",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239147",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239148",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140317",
+        "Creation_Date": "2021-05-19T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CM-28AF",
+        "Serial_No": "239149",
+        "Description": "城堡內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140424",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AST-041AF",
+        "Serial_No": "239606",
+        "Description": "台光電內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239694",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239695",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239696",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239697",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239698",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239699",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239700",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239701",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239702",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239703",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239704",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239705",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239706",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239707",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239708",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140444",
+        "Creation_Date": "2021-05-21T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "239709",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240733",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240734",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240735",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240736",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240737",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240738",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240739",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240740",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240741",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240742",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240743",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240744",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240745",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240746",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240747",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140623",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41AF-H",
+        "Serial_No": "240748",
+        "Description": "金鼎內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140636",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "RSV-42RN",
+        "Serial_No": "240829",
+        "Description": "口樂哪內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140637",
+        "Creation_Date": "2021-05-27T00:00:00",
+        "Status": "Planned",
+        "Item_No": "RSV-41AF-H",
+        "Serial_No": "240830",
+        "Description": "口樂哪內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241319",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241320",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241321",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241322",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241323",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241324",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241325",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241326",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241327",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241328",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241329",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241330",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241331",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241332",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241333",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241334",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241335",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241336",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241337",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140747",
+        "Creation_Date": "2021-05-31T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AF-H",
+        "Serial_No": "241338",
+        "Description": "金鼎內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241623",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241624",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241625",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241626",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241627",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241628",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241629",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241630",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241631",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241632",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241633",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140794",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241634",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140820",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241782",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140820",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241783",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140820",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-41HD",
+        "Serial_No": "241784",
+        "Description": "金鼎內機-變頻HD型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HD"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241828",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241829",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241830",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241831",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241832",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241833",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241834",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241835",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241836",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241837",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241838",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241839",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241840",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241841",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241842",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140832",
+        "Creation_Date": "2021-06-02T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-36AF",
+        "Serial_No": "241843",
+        "Description": "金鼎內機-AF型3.6kW(32)",
+        "Production_BOM_No": "S36AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242047",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242048",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242049",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242050",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242051",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242052",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242053",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242054",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242055",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242056",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242057",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242058",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242059",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242060",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242061",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140858",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-41AF",
+        "Serial_No": "242062",
+        "Description": "金鼎內機-AF型4.1kW(36)",
+        "Production_BOM_No": "S41AF"
+        },
+        {
+        "No": "140867",
+        "Creation_Date": "2021-06-03T00:00:00",
+        "Status": "Planned",
+        "Item_No": "RSV-28HD",
+        "Serial_No": "242094",
+        "Description": "口樂哪內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242399",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242400",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242401",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242402",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242403",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242404",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242405",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242406",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242407",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242408",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242409",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242410",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242411",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242412",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242413",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242414",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242415",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242416",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242417",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140920",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242418",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242468",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242469",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242470",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242471",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242472",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242473",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242474",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242475",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242476",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242477",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242478",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242479",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242480",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242481",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242482",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242483",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242484",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242485",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242486",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140927",
+        "Creation_Date": "2021-06-04T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JS-28AF",
+        "Serial_No": "242487",
+        "Description": "金鼎內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242509",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242510",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242511",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242512",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242513",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242514",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242515",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242516",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242517",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242518",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242519",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242520",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242521",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242522",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242523",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242524",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242525",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242526",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242527",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140934",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AS-28AF",
+        "Serial_No": "242528",
+        "Description": "雅哥內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "140960",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-41HF",
+        "Serial_No": "242624",
+        "Description": "詮寶內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140960",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-41HF",
+        "Serial_No": "242625",
+        "Description": "詮寶內機-變頻AF型4.1kW(36)冷暖",
+        "Production_BOM_No": "BS41HF"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242626",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242627",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242628",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242629",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242630",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242631",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242632",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242633",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242634",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242635",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242636",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242637",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242638",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242639",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242640",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140961",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242641",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242642",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242643",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242644",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242645",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242646",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242647",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242648",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242649",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242650",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242651",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242652",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242653",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242654",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242655",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242656",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140962",
+        "Creation_Date": "2021-06-07T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242657",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140963",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "ASV-28AF-H",
+        "Serial_No": "242658",
+        "Description": "雅哥內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242777",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242778",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242779",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242780",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242781",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242782",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242783",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242784",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242785",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242786",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242787",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242788",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242789",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242790",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242791",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140985",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28RN",
+        "Serial_No": "242792",
+        "Description": "詮寶內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242794",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242795",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242796",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242797",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242798",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242799",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242800",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140987",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-38RN",
+        "Serial_No": "242801",
+        "Description": "詮寶內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242802",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242803",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242804",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242805",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242806",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242807",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242808",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242809",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242810",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242811",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242812",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140988",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-42RN",
+        "Serial_No": "242813",
+        "Description": "詮寶內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242814",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242815",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242816",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242817",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242818",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242819",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242820",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "140989",
+        "Creation_Date": "2021-06-08T00:00:00",
+        "Status": "Planned",
+        "Item_No": "KSV-28RN",
+        "Serial_No": "242821",
+        "Description": "金菱內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242987",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242988",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242989",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242990",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242991",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242992",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242993",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242994",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242995",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242996",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242997",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242998",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "242999",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "243000",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "243001",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141022",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28RN",
+        "Serial_No": "243002",
+        "Description": "金鼎內機-變頻RN型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243003",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243004",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243005",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243006",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243007",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243008",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243009",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243010",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243011",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243012",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243013",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243014",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243015",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243016",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243017",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141023",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-38RN",
+        "Serial_No": "243018",
+        "Description": "金鼎內機-變頻RN型3.8kW(32)冷暖",
+        "Production_BOM_No": "BS38RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243019",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243020",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243021",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243022",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243023",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243024",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243025",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243026",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243027",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243028",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243029",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243030",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243031",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243032",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243033",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141024",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-42RN",
+        "Serial_No": "243034",
+        "Description": "金鼎內機-變頻RN型4.2kW(36)冷暖",
+        "Production_BOM_No": "BS42RN"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243056",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243057",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243058",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243059",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243060",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243061",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243062",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243063",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243064",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243065",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243066",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243067",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243068",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243069",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243070",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243071",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243072",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243073",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243074",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243075",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243076",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243077",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243078",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243079",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243080",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243081",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243082",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243083",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243084",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141029",
+        "Creation_Date": "2021-06-09T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28HD",
+        "Serial_No": "243085",
+        "Description": "金鼎內機-變頻HD型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HD"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243189",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243190",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243191",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243192",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243193",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243194",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243195",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243196",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243197",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243198",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243199",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243200",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243201",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243202",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141038",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-72AF-H",
+        "Serial_No": "243203",
+        "Description": "金鼎內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243204",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243205",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243206",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243207",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243208",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243209",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243210",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243211",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243212",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243213",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243214",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141039",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-72AF-H",
+        "Serial_No": "243215",
+        "Description": "城堡內機-變頻AF型7.2kW(63)冷暖",
+        "Production_BOM_No": "BS72HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243216",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243217",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243218",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243219",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243220",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243221",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243222",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243223",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141040",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "CMS-63AF-H",
+        "Serial_No": "243224",
+        "Description": "城堡內機-變頻AF型6.3kW(56)冷暖",
+        "Production_BOM_No": "BS63HF"
+        },
+        {
+        "No": "141050",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "MFS-12HT",
+        "Serial_No": "243248",
+        "Description": "北鄉內機-變頻AF型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HF"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243250",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243251",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243252",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243253",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243254",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243255",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243256",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243257",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243258",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243259",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243260",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243261",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243262",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243263",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141052",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-36HD",
+        "Serial_No": "243264",
+        "Description": "金鼎內機-變頻HD型3.6kW(32)冷暖",
+        "Production_BOM_No": "BS36HD"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243286",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243287",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243288",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243289",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243290",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243291",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243292",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243293",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243294",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243295",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243296",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243297",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243298",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243299",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243300",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243301",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243302",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243303",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243304",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141059",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243305",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243306",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243307",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243308",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243309",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243310",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243311",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243312",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243313",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243314",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243315",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243316",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243317",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243318",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243319",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243320",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243321",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243322",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243323",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243324",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141060",
+        "Creation_Date": "2021-06-10T00:00:00",
+        "Status": "Planned",
+        "Item_No": "JSV-28AB",
+        "Serial_No": "243325",
+        "Description": "金鼎內機-變頻AB型2.8kW(25)",
+        "Production_BOM_No": "BS28AB"
+        },
+        {
+        "No": "141067",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-50N",
+        "Serial_No": "243338",
+        "Description": "詮寶內機-N型5.0kW(45)",
+        "Production_BOM_No": "S45F"
+        },
+        {
+        "No": "141067",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-50N",
+        "Serial_No": "243339",
+        "Description": "詮寶內機-N型5.0kW(45)",
+        "Production_BOM_No": "S45F"
+        },
+        {
+        "No": "141067",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-50N",
+        "Serial_No": "243340",
+        "Description": "詮寶內機-N型5.0kW(45)",
+        "Production_BOM_No": "S45F"
+        },
+        {
+        "No": "141067",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-50N",
+        "Serial_No": "243341",
+        "Description": "詮寶內機-N型5.0kW(45)",
+        "Production_BOM_No": "S45F"
+        },
+        {
+        "No": "141067",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-50N",
+        "Serial_No": "243342",
+        "Description": "詮寶內機-N型5.0kW(45)",
+        "Production_BOM_No": "S45F"
+        },
+        {
+        "No": "141067",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-50N",
+        "Serial_No": "243343",
+        "Description": "詮寶內機-N型5.0kW(45)",
+        "Production_BOM_No": "S45F"
+        },
+        {
+        "No": "141068",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-28AF",
+        "Serial_No": "243344",
+        "Description": "詮寶內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "141068",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AM-28AF",
+        "Serial_No": "243345",
+        "Description": "詮寶內機-AF型2.8kW(25)",
+        "Production_BOM_No": "S28AF"
+        },
+        {
+        "No": "141069",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28HF",
+        "Serial_No": "243346",
+        "Description": "詮寶內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        },
+        {
+        "No": "141069",
+        "Creation_Date": "2021-06-11T00:00:00",
+        "Status": "Planned",
+        "Item_No": "AMV-28HF",
+        "Serial_No": "243347",
+        "Description": "詮寶內機-變頻AF型2.8kW(25)冷暖",
+        "Production_BOM_No": "BS28HF"
+        }
   ]
 }
